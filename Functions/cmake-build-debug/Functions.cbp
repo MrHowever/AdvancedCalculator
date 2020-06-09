@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Functions"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Tests\;CMake Files\Tests\lib\;CMake Files\Tests\lib\googlemock\;CMake Files\Tests\lib\googlemock\cmake\;CMake Files\Tests\lib\googletest\;CMake Files\Tests\lib\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Functions">
+				<Option output="/home/mrhowever/Programming/Projects/Functions/lib/libFunctions.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/TypeTraits/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/BasicOperations/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Interfaces/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 Functions"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Functions/fast">
+				<Option output="/home/mrhowever/Programming/Projects/Functions/lib/libFunctions.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/TypeTraits/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/BasicOperations/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Interfaces/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 Functions/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Google_Tests_run">
+				<Option output="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/Google_Tests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/TypeTraits/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/BasicOperations/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Interfaces/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 Google_Tests_run"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Google_Tests_run/fast">
+				<Option output="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/Google_Tests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/TypeTraits/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/BasicOperations/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Interfaces/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 Google_Tests_run/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/TypeTraits/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/BasicOperations/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Interfaces/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/TypeTraits/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/BasicOperations/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Interfaces/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/TypeTraits/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/BasicOperations/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Interfaces/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/TypeTraits/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/BasicOperations/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Interfaces/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/TypeTraits/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/BasicOperations/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Interfaces/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/TypeTraits/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/BasicOperations/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Interfaces/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/TypeTraits/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/BasicOperations/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Interfaces/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/TypeTraits/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/BasicOperations/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Interfaces/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.tcc">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/ArithmeticType.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/CustomPointer.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/CustomPointer.hh">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Division.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Division.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Division.tcc">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Equality.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Equality.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Equality.tcc">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/IncludeArithmeticObject.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/IncludeDivision.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/IncludeEquality.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/IncludeLogarithmMap.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/IncludeMultiplication.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/IncludeSum.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/IncludeValue.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/InvalidOperationException.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Logarithm.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Logarithm.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/LogarithmMap.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/LogarithmMap.tcc">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Multiplication.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Multiplication.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Multiplication.tcc">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/OperatorFactory.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/OperatorFactory.tcc">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Sum.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Sum.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Sum.tcc">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/SumSimplificationRoutines.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/SumSimplificationRoutines.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/DivisionTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/FunctionsTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/MultiplicationTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Typedef.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Typedefs.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Value.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Value.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Value.tcc">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Variable.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Variable.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\lib\"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\Tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\Tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\Tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\Tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\Tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\Tests\lib\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

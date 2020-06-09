@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTransforms.a  CMakeFiles/Transforms.dir/DiscreteFourierTransform.cpp.o CMakeFiles/Transforms.dir/FermatNumberTransform.cpp.o CMakeFiles/Transforms.dir/FourierTransform.cpp.o CMakeFiles/Transforms.dir/GeneralizedFermatNumberTransform.cpp.o CMakeFiles/Transforms.dir/MersenneNumberTransform.cpp.o CMakeFiles/Transforms.dir/NumberTheoreticTransform.cpp.o
+/usr/bin/ranlib libTransforms.a

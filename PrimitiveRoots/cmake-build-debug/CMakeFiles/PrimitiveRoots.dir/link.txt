@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPrimitiveRoots.a  CMakeFiles/PrimitiveRoots.dir/library.cpp.o
+/usr/bin/ranlib libPrimitiveRoots.a

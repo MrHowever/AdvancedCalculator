@@ -1,0 +1,92 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/mrhowever/Programming/Projects/ArithmeticFunctions/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba8f5/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ba8f5.dir/build.make CMakeFiles/cmTC_ba8f5.dir/build
+make[1]: Entering directory '/home/mrhowever/Programming/Projects/ArithmeticFunctions/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba8f5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ba8f5.dir/CheckSymbolExists.c.o   -c /home/mrhowever/Programming/Projects/ArithmeticFunctions/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ba8f5
+/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba8f5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ba8f5.dir/CheckSymbolExists.c.o  -o cmTC_ba8f5 
+CMakeFiles/cmTC_ba8f5.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ba8f5.dir/build.make:87: cmTC_ba8f5] Error 1
+make[1]: Leaving directory '/home/mrhowever/Programming/Projects/ArithmeticFunctions/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ba8f5/fast] Error 2
+
+File /home/mrhowever/Programming/Projects/ArithmeticFunctions/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/mrhowever/Programming/Projects/ArithmeticFunctions/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_201bf/fast 
+/usr/bin/make -f CMakeFiles/cmTC_201bf.dir/build.make CMakeFiles/cmTC_201bf.dir/build
+make[1]: Entering directory '/home/mrhowever/Programming/Projects/ArithmeticFunctions/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_201bf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_201bf.dir/CheckFunctionExists.c.o   -c /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_201bf
+/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_201bf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_201bf.dir/CheckFunctionExists.c.o  -o cmTC_201bf -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_201bf.dir/build.make:87: cmTC_201bf] Error 1
+make[1]: Leaving directory '/home/mrhowever/Programming/Projects/ArithmeticFunctions/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_201bf/fast] Error 2
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/mrhowever/Programming/Projects/ArithmeticFunctions/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_29d6a/fast && /usr/bin/make -f CMakeFiles/cmTC_29d6a.dir/build.make CMakeFiles/cmTC_29d6a.dir/build
+make[1]: Entering directory '/home/mrhowever/Programming/Projects/ArithmeticFunctions/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29d6a.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_29d6a.dir/src.c.o   -c /home/mrhowever/Programming/Projects/ArithmeticFunctions/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_29d6a
+/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29d6a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_29d6a.dir/src.c.o  -o cmTC_29d6a 
+CMakeFiles/cmTC_29d6a.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x5b): undefined reference to `pthread_join'
+src.c:(.text+0x6f): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_29d6a.dir/build.make:87: cmTC_29d6a] Error 1
+make[1]: Leaving directory '/home/mrhowever/Programming/Projects/ArithmeticFunctions/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_29d6a/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

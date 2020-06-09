@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="649e0ab6-9be1-4359-845d-bc152f3dc149" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/.idea/ArithmeticFunctions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/Tests/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/Tests/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/include/ArithmeticFunctionException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/include/Logarithm.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/src/ArithmeticFunctions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/src/Logarithm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/BasicOperations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/BasicOperations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/BasicOperations.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/BasicOperationsException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/.idea/Complex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/include/Complex.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/src/Complex.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstantVariables/include/Constants.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstantVariables/src/Constants.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/.idea/Functions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Function.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/PrimeFactorization.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/PrimeFactorization.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/untitled.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/BitShiftable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/Bounded.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/Comparable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/include/BitShiftable.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/include/Bounded.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/include/Comparable.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/ModularOperations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/ModularOperations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/ModularOperations.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/PrimitiveRoots.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/PrimitiveRootException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/library.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/library.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/Randomizable.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/FermatNumber.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/FermatNumber.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/InvalidParameterException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/MersenneNumber.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/MersenneNumber.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/.idea/Totients.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/Totients.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/Totients.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/DiscreteFourierTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/DiscreteFourierTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/FermatNumberTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/FermatNumberTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/FourierTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/FourierTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/GeneralizedFermatNumberTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/GeneralizedFermatNumberTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/MersenneNumberTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/MersenneNumberTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/NumberTheoreticTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/NumberTheoreticTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/TransformException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeTraits/.idea/TypeTraits.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeTraits/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeTraits/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeTraits/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeTraits/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeTraits/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeTraits/CustomTypeTraits.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeTraits/CustomTypeTraits.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicOperations/BasicOperations.hh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigIntegerArithmeticOperations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BigIntegerArithmeticOperations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigIntegerBitwiseOperations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BigIntegerBitwiseOperations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FourierTransform.hh" beforeDir="false" afterPath="$PROJECT_DIR$/FourierTransform.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/Bounded.hh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModularOperations/ModularOperations.hh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeNumber/Prime.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Prime/Prime.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeNumber/Prime.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../Prime/Prime.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeNumber/PrimeException.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../Prime/PrimeException.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Random/Random.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Random/Random.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Random/Random.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../Random/Random.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Random/Randomizable.hh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Random/RandomizerException.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../Random/RandomizerException.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ArithmeticTests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ArithmeticTests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjektSieciNeuronowe/Projekt2/main.py" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BigIntegerEmptyException.hh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BigIntegerException.hh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="8" selection-end-line="25" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>abs</find>
+      <find>MC::abs</find>
+      <find>Randomizer</find>
+      <find>generate</find>
+      <find>is_stl_container</find>
+      <find>upper</find>
+      <find>bool</find>
+      <find>(const uint64_t&amp; integer)</find>
+      <find>power</find>
+      <find>result.first[</find>
+      <find>T mod</find>
+      <find>, T mod</find>
+      <find>Bounded</find>
+      <find>ConversionFailed</find>
+      <find>NumberTheoretic</find>
+      <find>Fermat</find>
+      <find>::Fermat</find>
+      <find>NTT</find>
+      <find>BigIntegerEmpty</find>
+      <find>Mersenne</find>
+      <find>is_con</find>
+      <find>is_container&lt;T&gt;</find>
+      <find>&lt;&lt;</find>
+      <find>this-&gt;_omega</find>
+      <find>this-&gt;_modulus</find>
+      <find>transfo</find>
+      <find>transformLength</find>
+      <find>fft</find>
+      <find>Vali</find>
+      <find>isNth</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>T, E&gt;</replace>
+      <replace>, const D&amp;</replace>
+      <replace>::</replace>
+      <replace>bound, bool</replace>
+      <replace>Randomizer</replace>
+      <replace>Prime</replace>
+      <replace>MC::BO::abs</replace>
+      <replace>BasicOperations</replace>
+      <replace>override bool</replace>
+      <replace>MC::Bounded</replace>
+      <replace>is_container</replace>
+      <replace>biggerThenBound</replace>
+      <replace>T</replace>
+      <replace>(uint64_t integer)</replace>
+      <replace>digits[</replace>
+      <replace>, T modulus</replace>
+      <replace>Transform</replace>
+      <replace>containerSize</replace>
+      <replace>FermatNumber</replace>
+      <replace>Mersenne</replace>
+      <replace>MNT</replace>
+      <replace>::GeneralizedFermat</replace>
+      <replace>GFNT</replace>
+      <replace>InvalidParameter</replace>
+      <replace>Fermat</replace>
+      <replace>is_container&lt;G&gt;</replace>
+      <replace>+</replace>
+      <replace>std::to_string(this-&gt;_omega)</replace>
+      <replace>std::to_string(this-&gt;_modulus)</replace>
+      <replace>container.size()</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Tests/ComparisonTests.cpp" />
+        <option value="$PROJECT_DIR$/Tests/BitwiseTests.cpp" />
+        <option value="$PROJECT_DIR$/BigIntegerComparisons.cpp" />
+        <option value="$PROJECT_DIR$/BigInteger.cpp" />
+        <option value="$PROJECT_DIR$/FourierTransform.cpp" />
+        <option value="$PROJECT_DIR$/Random/Random.hh" />
+        <option value="$PROJECT_DIR$/PrimeNumber/PrimeException.hh" />
+        <option value="$PROJECT_DIR$/BigInteger.tcc" />
+        <option value="$PROJECT_DIR$/BigIntegerArithmeticOperations.tcc" />
+        <option value="$PROJECT_DIR$/BigIntegerComparisons.tcc" />
+        <option value="$PROJECT_DIR$/Random/RandomizerException.hh" />
+        <option value="$PROJECT_DIR$/BasicOperations/BasicOperationsException.hh" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Interfaces/Comparable.hh" />
+        <option value="$PROJECT_DIR$/Interfaces/Bounded.hh" />
+        <option value="$PROJECT_DIR$/Random/Randomizable.hh" />
+        <option value="$PROJECT_DIR$/CustomTypeTraits/CustomTypeTraits.hh" />
+        <option value="$PROJECT_DIR$/Random/Random.cpp" />
+        <option value="$PROJECT_DIR$/Interfaces/BitShiftable.hh" />
+        <option value="$PROJECT_DIR$/BigIntegerBitwiseOperations.cpp" />
+        <option value="$PROJECT_DIR$/Totients/Totients.hh" />
+        <option value="$PROJECT_DIR$/ArithmeticFunctions/ArithmeticFunctions.hh" />
+        <option value="$PROJECT_DIR$/PrimeNumber/Prime.hh" />
+        <option value="$PROJECT_DIR$/PrimeNumber/Prime.cpp" />
+        <option value="$PROJECT_DIR$/ModularOperations/ModularOperations.hh" />
+        <option value="$PROJECT_DIR$/Transforms/DiscreteFourierTransform.hh" />
+        <option value="$PROJECT_DIR$/FourierTransform.hh" />
+        <option value="$PROJECT_DIR$/Transforms/TransformException.hh" />
+        <option value="$PROJECT_DIR$/Transforms/FermatNumberTransform.hh" />
+        <option value="$PROJECT_DIR$/Transforms/MersenneNumberTransform.hh" />
+        <option value="$PROJECT_DIR$/Transforms/GeneralizedFermatNumberTransform.hh" />
+        <option value="$PROJECT_DIR$/SpecialNumbers/InvalidParameterException.hh" />
+        <option value="$PROJECT_DIR$/SpecialNumbers/MersenneNumber.hh" />
+        <option value="$PROJECT_DIR$/SpecialNumbers/MersenneNumber.cpp" />
+        <option value="$PROJECT_DIR$/SpecialNumbers/FermatNumber.hh" />
+        <option value="$PROJECT_DIR$/SpecialNumbers/FermatNumber.cpp" />
+        <option value="$PROJECT_DIR$/Transforms/MersenneNumberTransform.cpp" />
+        <option value="$PROJECT_DIR$/Transforms/GeneralizedFermatNumberTransform.cpp" />
+        <option value="$PROJECT_DIR$/Transforms/FermatNumberTransform.cpp" />
+        <option value="$PROJECT_DIR$/BasicOperations/BasicOperations.hh" />
+        <option value="$PROJECT_DIR$/Transforms/NumberTheoreticTransform.hh" />
+        <option value="$PROJECT_DIR$/PrimeFactorization/PrimeFactorization.hh" />
+        <option value="$PROJECT_DIR$/BigInteger.hh" />
+        <option value="$PROJECT_DIR$/Transforms/NumberTheoreticTransform.cpp" />
+        <option value="$PROJECT_DIR$/Tests/ArithmeticTests.cpp" />
+        <option value="$PROJECT_DIR$/BigIntegerArithmeticOperations.cpp" />
+        <option value="$PROJECT_DIR$/BigIntegerException.hh" />
+        <option value="$PROJECT_DIR$/../BasicOperations/BasicOperations/BasicOperations.hh" />
+        <option value="$PROJECT_DIR$/../ModularOperations/ModularOperations/ModularOperations.hh" />
+        <option value="$PROJECT_DIR$/../IntegerFactorization/PrimeFactorization.hh" />
+        <option value="$PROJECT_DIR$/../Prime/Prime.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-BigInteger" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/../PrimitiveRoots/.idea/PrimitiveRoots.iml" />
+        <option value="$PROJECT_DIR$/../BasicOperations/.idea/BasicOperations.iml" />
+        <option value="$PROJECT_DIR$/../ArithmeticFunctions/.idea/ArithmeticFunctions.iml" />
+        <option value="$PROJECT_DIR$/../Prime/.idea/Prime.iml" />
+        <option value="$PROJECT_DIR$/../Random/.idea/Random.iml" />
+        <option value="$PROJECT_DIR$/../SpecialNumbers/.idea/SpecialNumbers.iml" />
+        <option value="$PROJECT_DIR$/../Transforms/.idea/Transforms.iml" />
+        <option value="$PROJECT_DIR$/../Interfaces/.idea/Interfaces.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="276" />
+    <option name="y" value="152" />
+    <option name="width" value="974" />
+    <option name="height" value="555" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BasicOperations" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CLionExternalConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../TypeTraits" />
+      <recent name="$PROJECT_DIR$/../Interfaces" />
+      <recent name="$PROJECT_DIR$/../Transforms" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/../SpecialNumbers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Google Test.ArithmeticTestSuite.FFTMultTest">
+    <configuration name="ArithmeticTestSuite.FFTMultTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BigInteger" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BigInteger" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="ArithmeticTestSuite" TEST_METHOD="FFTMultTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticTestSuite.FermatModTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BigInteger" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BigInteger" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="ArithmeticTestSuite" TEST_METHOD="FermatModTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticTestSuite.ModTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BigInteger" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BigInteger" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="ArithmeticTestSuite" TEST_METHOD="ModTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticTestsSuite.FTTTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BigInteger" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BigInteger" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="ArithmeticTestsSuite" TEST_METHOD="FTTTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticTestsSuite.NTTTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BigInteger" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BigInteger" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="ArithmeticTestsSuite" TEST_METHOD="NTTTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Google Test.ArithmeticTestSuite.FFTMultTest" />
+      <item itemvalue="Google Test.ArithmeticTestSuite.FermatModTest" />
+      <item itemvalue="Google Test.ArithmeticTestSuite.ModTest" />
+      <item itemvalue="Google Test.ArithmeticTestsSuite.FTTTest" />
+      <item itemvalue="Google Test.ArithmeticTestsSuite.NTTTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.ArithmeticTestSuite.FFTMultTest" />
+        <item itemvalue="Google Test.ArithmeticTestSuite.FermatModTest" />
+        <item itemvalue="Google Test.ArithmeticTestsSuite.NTTTest" />
+        <item itemvalue="Google Test.ArithmeticTestsSuite.FTTTest" />
+        <item itemvalue="Google Test.ArithmeticTestSuite.ModTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="649e0ab6-9be1-4359-845d-bc152f3dc149" name="Default Changelist" comment="" />
+      <created>1570238021374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570238021374</updated>
+      <workItem from="1570238027259" duration="2182000" />
+      <workItem from="1570240410174" duration="278000" />
+      <workItem from="1570321330583" duration="3171000" />
+      <workItem from="1570362101464" duration="1364000" />
+      <workItem from="1570365383345" duration="9853000" />
+      <workItem from="1570409671095" duration="2413000" />
+      <workItem from="1570452668167" duration="3519000" />
+      <workItem from="1570461743576" duration="3163000" />
+      <workItem from="1570542726591" duration="5458000" />
+      <workItem from="1570623001797" duration="6191000" />
+      <workItem from="1570753924237" duration="2357000" />
+      <workItem from="1570841327278" duration="2245000" />
+      <workItem from="1570907143629" duration="787000" />
+      <workItem from="1570908584332" duration="9927000" />
+      <workItem from="1571009663236" duration="5232000" />
+      <workItem from="1571055319056" duration="15045000" />
+      <workItem from="1571099010607" duration="2226000" />
+      <workItem from="1571177546174" duration="10211000" />
+      <workItem from="1571229222283" duration="4865000" />
+      <workItem from="1571235124673" duration="9712000" />
+      <workItem from="1571401099415" duration="24342000" />
+      <workItem from="1571445094689" duration="4406000" />
+      <workItem from="1571489991372" duration="4557000" />
+      <workItem from="1571494877075" duration="2720000" />
+      <workItem from="1571528524705" duration="1620000" />
+      <workItem from="1571530247912" duration="4198000" />
+      <workItem from="1571602461959" duration="4043000" />
+      <workItem from="1571617474697" duration="2436000" />
+      <workItem from="1571662473374" duration="7918000" />
+      <workItem from="1571671191369" duration="2213000" />
+      <workItem from="1571703003426" duration="5657000" />
+      <workItem from="1571746548445" duration="10267000" />
+      <workItem from="1571874186934" duration="5353000" />
+      <workItem from="1571937361439" duration="5754000" />
+      <workItem from="1571949498346" duration="3029000" />
+      <workItem from="1571959766548" duration="4002000" />
+      <workItem from="1572011091208" duration="6785000" />
+      <workItem from="1572099546989" duration="13001000" />
+      <workItem from="1572137233311" duration="49560000" />
+      <workItem from="1572228856188" duration="1162000" />
+      <workItem from="1572278730395" duration="3302000" />
+      <workItem from="1572397625135" duration="4781000" />
+      <workItem from="1572485252029" duration="4332000" />
+      <workItem from="1572530074913" duration="2428000" />
+      <workItem from="1572557461596" duration="2126000" />
+      <workItem from="1572569827046" duration="3916000" />
+      <workItem from="1572619283501" duration="3954000" />
+      <workItem from="1572660524170" duration="1498000" />
+      <workItem from="1572831475876" duration="3546000" />
+      <workItem from="1572900995038" duration="2081000" />
+      <workItem from="1572913819660" duration="3706000" />
+      <workItem from="1572917555575" duration="2135000" />
+      <workItem from="1572999606278" duration="3625000" />
+      <workItem from="1573178799076" duration="1450000" />
+      <workItem from="1573220053636" duration="7975000" />
+      <workItem from="1573438709260" duration="2179000" />
+      <workItem from="1573510766689" duration="5579000" />
+      <workItem from="1573609817736" duration="3092000" />
+      <workItem from="1573656425860" duration="2230000" />
+      <workItem from="1573694803871" duration="4254000" />
+      <workItem from="1573742399338" duration="1126000" />
+      <workItem from="1573744842219" duration="5377000" />
+      <workItem from="1573781145091" duration="5095000" />
+      <workItem from="1573866509651" duration="4094000" />
+      <workItem from="1573916539831" duration="695000" />
+      <workItem from="1573917386280" duration="3574000" />
+      <workItem from="1573921901330" duration="13179000" />
+      <workItem from="1574003126162" duration="8602000" />
+      <workItem from="1574026695206" duration="4345000" />
+      <workItem from="1574043384697" duration="252000" />
+      <workItem from="1574043724622" duration="1016000" />
+      <workItem from="1574052680409" duration="2523000" />
+      <workItem from="1574089979800" duration="4929000" />
+      <workItem from="1574121444322" duration="3470000" />
+      <workItem from="1574126248942" duration="2828000" />
+      <workItem from="1574179998659" duration="9041000" />
+      <workItem from="1574214509021" duration="4437000" />
+      <workItem from="1574298062319" duration="4770000" />
+      <workItem from="1574387624858" duration="2885000" />
+      <workItem from="1574474617820" duration="2448000" />
+      <workItem from="1579744162803" duration="445000" />
+      <workItem from="1579744715489" duration="5301000" />
+      <workItem from="1579760302279" duration="1066000" />
+      <workItem from="1579764578884" duration="2797000" />
+      <workItem from="1579772783190" duration="3351000" />
+      <workItem from="1579779203404" duration="2218000" />
+      <workItem from="1579857943889" duration="3330000" />
+      <workItem from="1579870390661" duration="1365000" />
+      <workItem from="1579957726998" duration="20000" />
+      <workItem from="1580289697930" duration="5000" />
+      <workItem from="1580289735558" duration="37000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1572011616289</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572011616289</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Stuff added">
+      <created>1573525448084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573525448084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ArithmeticTestSuite_FFTMultTest - 2020.01.23 at 11h 14m 32s.xml">
+      <configuration name="ArithmeticTestSuite.FFTMultTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArithmeticTestSuite_FFTMultTest - 2020.01.23 at 11h 34m 45s.xml">
+      <configuration name="ArithmeticTestSuite.FFTMultTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArithmeticTestSuite_FFTMultTest - 2020.01.23 at 11h 35m 47s.xml">
+      <configuration name="ArithmeticTestSuite.FFTMultTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArithmeticTestSuite_FFTMultTest - 2020.01.23 at 11h 36m 16s.xml">
+      <configuration name="ArithmeticTestSuite.FFTMultTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArithmeticTestSuite_FFTMultTest - 2020.01.23 at 11h 38m 23s.xml">
+      <configuration name="ArithmeticTestSuite.FFTMultTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArithmeticTestSuite_FFTMultTest - 2020.01.23 at 12h 44m 48s.xml">
+      <configuration name="ArithmeticTestSuite.FFTMultTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArithmeticTestSuite_FFTMultTest - 2020.01.23 at 12h 47m 32s.xml">
+      <configuration name="ArithmeticTestSuite.FFTMultTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArithmeticTestSuite_FFTMultTest - 2020.01.23 at 12h 50m 41s.xml">
+      <configuration name="ArithmeticTestSuite.FFTMultTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArithmeticTestSuite_FFTMultTest - 2020.01.23 at 12h 52m 48s.xml">
+      <configuration name="ArithmeticTestSuite.FFTMultTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArithmeticTestSuite_FFTMultTest - 2020.01.23 at 12h 53m 26s.xml">
+      <configuration name="ArithmeticTestSuite.FFTMultTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="436032000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23782921" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32829374" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969697" weight="0.3120125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40712744" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="CMake" order="10" visible="true" weight="0.32736155" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924242" weight="0.45680344" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5030303" side_tool="true" weight="0.35881436" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24980047" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33439744" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32829374" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49880287" weight="0.37459284" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5928339" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="CMake" order="10" weight="0.32736155" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.27687296" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5011971" side_tool="true" weight="0.37459284" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24980047" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Stuff added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stuff added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/BigInteger.tcc</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tests/ConstructorTests.cpp</url>
+          <line>193</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/BigIntegerComparisons.tcc</url>
+          <line>64</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/BigIntegerArithmeticOperations.cpp</url>
+          <line>174</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/BigIntegerArithmeticOperations.cpp</url>
+          <line>302</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/FourierTransform.hh</url>
+          <line>102</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/FourierTransform.hh</url>
+          <line>197</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tests/ArithmeticTests.cpp</url>
+          <line>85</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/FourierTransform.hh</url>
+          <line>153</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/FourierTransform.hh</url>
+          <line>182</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/FourierTransform.hh</url>
+          <line>161</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../ModularOperations/ModularOperations.hh</url>
+          <line>22</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../Transforms/NumberTheoreticTransform.cpp</url>
+          <line>177</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tests/ArithmeticTests.cpp</url>
+          <line>58</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tests/ArithmeticTests.cpp</url>
+          <line>61</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tests/ArithmeticTests.cpp</url>
+          <line>56</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../Transforms/NumberTheoreticTransform.cpp</url>
+          <line>151</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/BigIntegerArithmeticOperations.cpp</url>
+          <line>285</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/BigIntegerArithmeticOperations.cpp</url>
+          <line>279</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../Transforms/NumberTheoreticTransform.cpp</url>
+          <line>210</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../Transforms/NumberTheoreticTransform.cpp</url>
+          <line>213</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/BigIntegerArithmeticOperations.cpp</url>
+          <line>295</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tests/ArithmeticTests.cpp</url>
+          <line>114</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tests/ArithmeticTests.cpp</url>
+          <line>109</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../Transforms/NumberTheoreticTransform.cpp</url>
+          <line>168</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <breakpoint type="OCSymbolicBreakpointType">
+          <properties>
+            <option name="symbolPattern" value="Test" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>a == 26</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>powersOf2</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BigIntegerComparisons.tcc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="e#135#159#0" expanded="true" />
+            <element signature="e#169#181#0" expanded="true" />
+            <element signature="e#1707#1719#0" expanded="true" />
+            <element signature="e#1810#1822#0" expanded="true" />
+            <element signature="e#2397#2409#0" expanded="true" />
+            <element signature="e#2500#2512#0" expanded="true" />
+            <element signature="e#3089#3101#0" expanded="true" />
+            <element signature="e#3194#3206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicOperations/BasicOperationsException.cpp" />
+    <entry file="file://$PROJECT_DIR$/../Random/RandomizerException.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicOperations/BasicOperationsException.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Random/Randomizable.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#132#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="332" selection-start-line="4" selection-start-column="325" selection-end-line="4" selection-end-column="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Interfaces/Bounded.hh" />
+    <entry file="file://$PROJECT_DIR$/../Random/Random.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#149#224#0" expanded="true" />
+            <element signature="e#404#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Random/Random.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+          <folding>
+            <element signature="e#44#66#0" expanded="true" />
+            <element signature="e#2314#2350#0" expanded="true" />
+            <element signature="e#2359#2371#0" expanded="true" />
+            <element signature="e#2469#2505#0" expanded="true" />
+            <element signature="e#2514#2526#0" expanded="true" />
+            <element signature="e#2645#2681#0" expanded="true" />
+            <element signature="e#2690#2702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Interfaces/Comparable.hh" />
+    <entry file="file://$PROJECT_DIR$/../Interfaces/BitShiftable.hh" />
+    <entry file="file://$PROJECT_DIR$/BigIntegerBitwiseOperations.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="120" column="52" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
+          <folding>
+            <element signature="e#44#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/alloc_traits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="435" selection-start-line="435" selection-end-line="435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Totients/Totients.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ArithmeticFunctions/ArithmeticFunctions.hh" />
+    <entry file="file://$PROJECT_DIR$/../Transforms/FourierTransform.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Transforms/FourierTransform.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Transforms/DiscreteFourierTransform.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Transforms/DiscreteFourierTransform.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TypeTraits/CustomTypeTraits.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Transforms/TransformException.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Transforms/MersenneNumberTransform.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#186#198#0" expanded="true" />
+            <element signature="e#631#643#0" expanded="true" />
+            <element signature="e#736#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Transforms/GeneralizedFermatNumberTransform.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="e#155#173#0" expanded="true" />
+            <element signature="e#226#238#0" expanded="true" />
+            <element signature="e#703#715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpecialNumbers/InvalidParameterException.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpecialNumbers/MersenneNumber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="e#44#60#0" expanded="true" />
+            <element signature="e#1601#1613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpecialNumbers/FermatNumber.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#165#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpecialNumbers/MersenneNumber.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpecialNumbers/FermatNumber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" column="68" lean-forward="true" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+          <folding>
+            <element signature="e#44#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Transforms/FermatNumberTransform.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Transforms/MersenneNumberTransform.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#44#81#0" expanded="true" />
+            <element signature="e#1931#1943#0" expanded="true" />
+            <element signature="e#2622#2634#0" expanded="true" />
+            <element signature="e#2643#2655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Transforms/FermatNumberTransform.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+          <folding>
+            <element signature="e#44#60#0" expanded="true" />
+            <element signature="e#2068#2080#0" expanded="true" />
+            <element signature="e#2899#2911#0" expanded="true" />
+            <element signature="e#2920#2932#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Transforms/GeneralizedFermatNumberTransform.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="93" column="66" selection-start-line="93" selection-start-column="66" selection-end-line="93" selection-end-column="66" />
+          <folding>
+            <element signature="e#44#90#0" expanded="true" />
+            <element signature="e#1972#1984#0" expanded="true" />
+            <element signature="e#2827#2839#0" expanded="true" />
+            <element signature="e#2848#2860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FourierTransform.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/include/c++/7/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BigIntegerArithmeticOperations.tcc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-532">
+          <caret line="128" column="53" selection-start-line="128" selection-start-column="53" selection-end-line="128" selection-end-column="53" />
+          <folding>
+            <element signature="e#153#173#0" expanded="true" />
+            <element signature="e#1087#1099#0" expanded="true" />
+            <element signature="e#1851#1863#0" expanded="true" />
+            <element signature="e#3498#3510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Transforms/NumberTheoreticTransform.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/lib/googletest/src/gtest.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36480">
+          <caret line="2432" selection-start-line="2432" selection-end-line="2432" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConversionFailedException.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicOperations/BasicOperations.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+          <folding>
+            <element signature="e#121#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ModularOperations/ModularOperations.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BigInteger.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2235">
+          <caret line="149" column="29" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
+          <folding>
+            <element signature="e#67#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BigInteger.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="240" column="22" selection-start-line="240" selection-start-column="22" selection-end-line="240" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../IntegerFactorization/PrimeFactorization.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#127#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Prime/Prime.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FourierTransform.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2278">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Transforms/NumberTheoreticTransform.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/ArithmeticTests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Prime/Prime.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BigIntegerArithmeticOperations.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="272" column="1" selection-start-line="272" selection-start-column="1" selection-end-line="272" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BigIntegerEmptyException.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BigIntegerException.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="8" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.o"
+  "CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.o"
+  "CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.o"
+  "CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.o"
+  "Google_Tests_run"
+  "Google_Tests_run.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Google_Tests_run.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

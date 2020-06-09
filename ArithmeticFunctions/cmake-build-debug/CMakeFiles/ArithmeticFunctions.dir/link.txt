@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libArithmeticFunctions.a  CMakeFiles/ArithmeticFunctions.dir/src/ArithmeticFunctions.cpp.o CMakeFiles/ArithmeticFunctions.dir/src/Logarithm.cpp.o
+/usr/bin/ranlib ../lib/libArithmeticFunctions.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libBasicOperations.a  CMakeFiles/BasicOperations.dir/src/BasicOperations.cpp.o
+/usr/bin/ranlib ../lib/libBasicOperations.a

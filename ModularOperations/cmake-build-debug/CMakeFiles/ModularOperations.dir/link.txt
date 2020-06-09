@@ -1,0 +1,2 @@
+/usr/bin/ar qc libModularOperations.a  CMakeFiles/ModularOperations.dir/ModularOperations.cpp.o
+/usr/bin/ranlib libModularOperations.a

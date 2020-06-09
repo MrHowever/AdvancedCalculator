@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ArithmeticFunctionsTests.dir/tests.cpp.o CMakeFiles/ArithmeticFunctionsTests.dir/__/src/ArithmeticFunctions.cpp.o  -o ArithmeticFunctionsTests ../lib/libgtestd.a ../lib/libgtest_maind.a ../lib/libgtestd.a -lpthread 

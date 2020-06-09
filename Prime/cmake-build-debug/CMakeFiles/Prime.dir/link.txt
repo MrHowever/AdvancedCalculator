@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPrime.a  CMakeFiles/Prime.dir/Prime.cpp.o
+/usr/bin/ranlib libPrime.a

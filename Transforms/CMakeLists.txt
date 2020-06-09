@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14)
+project(Transforms)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_library(Transforms DiscreteFourierTransform.hh DiscreteFourierTransform.cpp FermatNumberTransform.hh FermatNumberTransform.cpp FourierTransform.hh FourierTransform.cpp GeneralizedFermatNumberTransform.hh GeneralizedFermatNumberTransform.cpp MersenneNumberTransform.hh MersenneNumberTransform.cpp NumberTheoreticTransform.hh NumberTheoreticTransform.cpp TransformException.hh)

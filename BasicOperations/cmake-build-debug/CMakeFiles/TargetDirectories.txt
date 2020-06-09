@@ -1,0 +1,3 @@
+/home/mrhowever/Programming/Projects/BasicOperations/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mrhowever/Programming/Projects/BasicOperations/cmake-build-debug/CMakeFiles/BasicOperations.dir
+/home/mrhowever/Programming/Projects/BasicOperations/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTotients.a  CMakeFiles/Totients.dir/Totients.cpp.o
+/usr/bin/ranlib libTotients.a

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mrhowever/Programming/Projects/Interfaces/BitShiftable.cpp
+
+/home/mrhowever/Programming/Projects/Interfaces/Bounded.cpp
+
+/home/mrhowever/Programming/Projects/Interfaces/Comparable.cpp
+

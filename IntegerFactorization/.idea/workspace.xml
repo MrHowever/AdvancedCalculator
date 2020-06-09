@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99ed03c1-d06e-4d04-8c41-e0b9f1ec4269" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/ArithmeticFunctions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/ArithmeticFunctions.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/BasicOperations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/BasicOperations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/BasicOperations.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/BasicOperationsException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/CustomTypeTraits/CustomTypeTraits.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Interfaces/BitShiftable.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Interfaces/Comparable.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/SpecialNumbers/FermatNumber.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/SpecialNumbers/FermatNumber.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/SpecialNumbers/InvalidParameterException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/SpecialNumbers/MersenneNumber.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/SpecialNumbers/MersenneNumber.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Totients/Totients.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/DiscreteFourierTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/DiscreteFourierTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/FermatNumberTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/FermatNumberTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/FourierTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/FourierTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/GeneralizedFermatNumberTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/GeneralizedFermatNumberTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/MersenneNumberTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/MersenneNumberTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/NumberTheoreticTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/NumberTheoreticTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/Transforms/TransformException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimeFactorization.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/untitled.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/ModularOperations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/ModularOperations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/ModularOperations.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/PrimitiveRoots.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/PrimitiveRootException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/library.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/library.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/BasicOperations/BasicOperations.hh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/BigIntegerArithmeticOperations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/BigIntegerArithmeticOperations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/BigIntegerBitwiseOperations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/BigIntegerBitwiseOperations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/FourierTransform.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/FourierTransform.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/Interfaces/Bounded.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/Interfaces/Bounded.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/ModularOperations/ModularOperations.hh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/PrimeNumber/Prime.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/PrimeNumber/Prime.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/PrimeNumber/Prime.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/PrimeNumber/Prime.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/Random/Random.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/Random/Random.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/Random/Randomizable.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/Random/Randomizable.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/Tests/ArithmeticTests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/Tests/ArithmeticTests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjektSieciNeuronowe/Projekt2/main.py" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PrimeFactorization.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/untitled.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="276" />
+    <option name="y" value="152" />
+    <option name="width" value="974" />
+    <option name="height" value="555" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IntegerFactorization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntegerFactorization" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99ed03c1-d06e-4d04-8c41-e0b9f1ec4269" name="Default Changelist" comment="" />
+      <created>1579870637557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579870637557</updated>
+      <workItem from="1579870640294" duration="179000" />
+      <workItem from="1579870823957" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="209000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25379092" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/library.cpp" />
+    <entry file="file://$PROJECT_DIR$/library.h" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrimeFactorization.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

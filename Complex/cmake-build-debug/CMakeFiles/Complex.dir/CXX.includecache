@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mrhowever/Programming/Projects/Complex/Complex.cpp
+algorithm
+-
+Complex.hh
+/home/mrhowever/Programming/Projects/Complex/Complex.hh
+
+/home/mrhowever/Programming/Projects/Complex/Complex.hh
+

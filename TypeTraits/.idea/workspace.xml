@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="TypeTraits" targetName="TypeTraits" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43c30173-84c2-40df-b214-575279693f97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/.idea/ArithmeticFunctions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/Tests/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/Tests/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/include/ArithmeticFunctionException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/include/Logarithm.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/src/ArithmeticFunctions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArithmeticFunctions/src/Logarithm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/BasicOperations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/include/BasicOperations.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/include/BasicOperationsException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicOperations/src/BasicOperations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigInteger/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BigIntegerWtf/.idea/BigIntegerWtf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/.idea/Complex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/include/Complex.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complex/src/Complex.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstantVariables/.idea/ConstantVariables.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstantVariables/include/Constants.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstantVariables/src/Constants.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeleteDiacritics/.idea/DeleteDiacritics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/.idea/Functions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Function.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/PrimeFactorization.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/PrimeFactorization.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegerFactorization/cmake-build-debug/untitled.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/.idea/Interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/include/BitShiftable.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/include/Bounded.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/include/Comparable.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/BitShiftable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Bounded.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Comparable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/ModularOperations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/ModularOperations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModularOperations/ModularOperations.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/Prime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/PrimitiveRoots.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/PrimitiveRootException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/library.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimitiveRoots/library.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/.idea/Random.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Random/Randomizable.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoveDiacritics/.idea/RemoveDiacritics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/.idea/SpecialNumbers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/FermatNumber.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/FermatNumber.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/InvalidParameterException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/MersenneNumber.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialNumbers/MersenneNumber.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TempLog/.idea/TempLog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/.idea/Totients.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/Totients.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Totients/Totients.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/.idea/Transforms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/DiscreteFourierTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/DiscreteFourierTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/FermatNumberTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/FermatNumberTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/FourierTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/FourierTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/GeneralizedFermatNumberTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/GeneralizedFermatNumberTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/MersenneNumberTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/MersenneNumberTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/NumberTheoreticTransform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/NumberTheoreticTransform.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transforms/TransformException.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/TypeTraits.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/CustomTypeTraits.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CustomTypeTraits.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/BasicOperations/BasicOperations.hh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/BigIntegerArithmeticOperations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/BigIntegerArithmeticOperations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/BigIntegerBitwiseOperations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/BigIntegerBitwiseOperations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/FourierTransform.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/FourierTransform.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/Interfaces/Bounded.hh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/ModularOperations/ModularOperations.hh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/PrimeNumber/Prime.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Prime/Prime.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/PrimeNumber/Prime.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../Prime/Prime.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/PrimeNumber/PrimeException.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../Prime/PrimeException.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/Random/Random.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Random/Random.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/Random/Random.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../Random/Random.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/Random/Randomizable.hh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/Random/RandomizerException.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../Random/RandomizerException.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigInteger/Tests/ArithmeticTests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BigInteger/Tests/ArithmeticTests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjektSieciNeuronowe/Projekt2/main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1XWrcVVKZ50ViACZWsY0BW8boNO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TypeTraits" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TypeTraits" TARGET_NAME="TypeTraits" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43c30173-84c2-40df-b214-575279693f97" name="Default Changelist" comment="" />
+      <created>1579871721087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579871721087</updated>
+      <workItem from="1579871723124" duration="59000" />
+      <workItem from="1581172773097" duration="359000" />
+      <workItem from="1581173585458" duration="81000" />
+      <workItem from="1581184889314" duration="5084000" />
+      <workItem from="1581214728637" duration="14000" />
+      <workItem from="1581293690665" duration="444000" />
+      <workItem from="1581296205907" duration="302000" />
+      <workItem from="1581443535940" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

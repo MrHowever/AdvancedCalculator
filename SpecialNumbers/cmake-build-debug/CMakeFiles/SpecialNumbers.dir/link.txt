@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSpecialNumbers.a  CMakeFiles/SpecialNumbers.dir/FermatNumber.cpp.o CMakeFiles/SpecialNumbers.dir/MersenneNumber.cpp.o
+/usr/bin/ranlib libSpecialNumbers.a

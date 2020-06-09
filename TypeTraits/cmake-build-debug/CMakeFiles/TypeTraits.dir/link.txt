@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libTypeTraits.a  CMakeFiles/TypeTraits.dir/src/CustomTypeTraits.cpp.o
+/usr/bin/ranlib ../lib/libTypeTraits.a

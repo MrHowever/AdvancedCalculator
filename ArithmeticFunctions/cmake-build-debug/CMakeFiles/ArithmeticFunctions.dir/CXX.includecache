@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mrhowever/Programming/Projects/ArithmeticFunctions/src/ArithmeticFunctions.cpp
+type_traits
+-
+BitShiftable.hh
+-
+
+/home/mrhowever/Programming/Projects/Interfaces/include/BitShiftable.hh
+cstdint
+-
+
