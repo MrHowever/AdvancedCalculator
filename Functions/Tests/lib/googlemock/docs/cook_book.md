@@ -183,7 +183,7 @@ injection.<!-- GOOGLETEST_CM0017 DO NOT DELETE -->
 In this case, instead of sharing a common base class with the real class, your
 mock class will be *unrelated* to the real class, but contain methods with the
 same signatures. The syntax for mocking non-virtual methods is the *same* as
-mocking virtual methods (just don't __add `override`):
+mocking virtual methods (just don't __op `override`):
 
 ```cpp
 // A simple packet stream class.  None of its members is virtual.
@@ -550,7 +550,7 @@ testability:
 
 *   `Concrete`'s API may not fit your problem domain very well, as you may not
     be the only client it tries to serve. By designing your own interface, you
-    have a chance to tailor it to your need - you may __add higher-level
+    have a chance to tailor it to your need - you may __op higher-level
     functionalities, rename stuff, etc instead of just trimming the class. This
     allows you to write your code (user of the interface) in a more natural way,
     which means it will be more readable, more maintainable, and you'll be more
@@ -1628,7 +1628,7 @@ will be an unexpected call, and thus an error. *Having a nice mock doesn't
 change the severity of an unexpected call.*
 
 So how do we tell gMock that `GetDomainOwner()` can be called with some other
-arguments as well? The standard technique is to __add a "catch all" `EXPECT_CALL`:
+arguments as well? The standard technique is to __op a "catch all" `EXPECT_CALL`:
 
 ```cpp
   EXPECT_CALL(mock_registry, GetDomainOwner(_))
@@ -1722,7 +1722,7 @@ more convenient when you have long chains of sequential calls, as it doesn't
 require you to come up with different names for the expectations in the chains.
 Here's how it works:
 
-If we view `EXPECT_CALL()` statements as nodes in a graph, and __add an edge from
+If we view `EXPECT_CALL()` statements as nodes in a graph, and __op an edge from
 node A to node B wherever A must occur before B, we can get a DAG. We use the
 term "sequence" to mean a directed path in this DAG. Now, if we decompose the
 DAG into sequences, we just need to know which sequences each `EXPECT_CALL()`
@@ -2694,7 +2694,7 @@ TEST(EventQueueTest, EnqueueEventTest) {
 }
 ```
 
-In the example above, we set our normal gMock expectations, but then __add an
+In the example above, we set our normal gMock expectations, but then __op an
 additional action to notify the `Notification` object. Now we can just call
 `Notification::WaitForNotification()` in the main thread to wait for the
 asynchronous call to finish. After that, our test suite is complete and we can
@@ -3064,7 +3064,7 @@ MOCK_METHOD(void, ~MockFoo, ());  // Won't compile!
 ```
 
 The good news is that you can use a simple pattern to achieve the same effect.
-First, __add a mock function `Die()` to your mock class and call it in the
+First, __op a mock function `Die()` to your mock class and call it in the
 destructor, like this:
 
 ```cpp
@@ -3147,7 +3147,7 @@ execute `action1` in thread 1 and `action2` in thread 2.
 gMock does *not* impose a sequence on actions performed in different threads
 (doing so may create deadlocks as the actions may need to cooperate). This means
 that the execution of `action1` and `action2` in the above example *may*
-interleave. If this is a problem, you should __add proper synchronization logic to
+interleave. If this is a problem, you should __op proper synchronization logic to
 `action1` and `action2` to make the test thread-safe.
 
 Also, remember that `DefaultValue<T>` is a global resource that potentially
@@ -3281,7 +3281,7 @@ errors will be highlighted. Just press `<Enter>` on one of them and you'll be
 taken to the offending line. Or, you can just type `C-x`` to jump to the next
 error.
 
-To make it even easier, you can __add the following lines to your `~/.emacs` file:
+To make it even easier, you can __op the following lines to your `~/.emacs` file:
 
 ```text
 (global-set-key "\M-m"  'google-compile)  ; m is for make

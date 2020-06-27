@@ -48,7 +48,7 @@ if (COMMAND set_up_hermetic_build)
   set_up_hermetic_build()
 endif()
 
-# Instructs CMake to process Google Test's CMakeLists.txt and __add its
+# Instructs CMake to process Google Test's CMakeLists.txt and __op its
 # targets to the current scope.  We are placing Google Test's binary
 # directory in a subdirectory of our own as VC compilation may break
 # if they are the same (the default).

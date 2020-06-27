@@ -5,9 +5,7 @@
 #ifndef FUNCTIONS_INVALIDOPERATIONEXCEPTION_HH
 #define FUNCTIONS_INVALIDOPERATIONEXCEPTION_HH
 
-
 #include <stdexcept>
-#include <string>
 
 class InvalidOperationException : public std::runtime_error
 {

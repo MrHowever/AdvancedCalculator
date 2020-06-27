@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mrhowever/Programming/Projects/Functions
+CMAKE_SOURCE_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mrhowever/Programming/Projects/Functions/cmake-build-debug
+CMAKE_BINARY_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,31 +59,31 @@ CMAKE_BINARY_DIR = /home/mrhowever/Programming/Projects/Functions/cmake-build-de
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -105,13 +105,13 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -315,6 +315,33 @@ Equality.cpp.s:
 	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/Equality.cpp.s
 .PHONY : Equality.cpp.s
 
+EqualityComparable.o: EqualityComparable.cpp.o
+
+.PHONY : EqualityComparable.o
+
+# target to build an object file
+EqualityComparable.cpp.o:
+	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/EqualityComparable.cpp.o
+.PHONY : EqualityComparable.cpp.o
+
+EqualityComparable.i: EqualityComparable.cpp.i
+
+.PHONY : EqualityComparable.i
+
+# target to preprocess a source file
+EqualityComparable.cpp.i:
+	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/EqualityComparable.cpp.i
+.PHONY : EqualityComparable.cpp.i
+
+EqualityComparable.s: EqualityComparable.cpp.s
+
+.PHONY : EqualityComparable.s
+
+# target to generate assembly for a file
+EqualityComparable.cpp.s:
+	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/EqualityComparable.cpp.s
+.PHONY : EqualityComparable.cpp.s
+
 Logarithm.o: Logarithm.cpp.o
 
 .PHONY : Logarithm.o
@@ -369,6 +396,33 @@ Multiplication.cpp.s:
 	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/Multiplication.cpp.s
 .PHONY : Multiplication.cpp.s
 
+Operator.o: Operator.cpp.o
+
+.PHONY : Operator.o
+
+# target to build an object file
+Operator.cpp.o:
+	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/Operator.cpp.o
+.PHONY : Operator.cpp.o
+
+Operator.i: Operator.cpp.i
+
+.PHONY : Operator.i
+
+# target to preprocess a source file
+Operator.cpp.i:
+	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/Operator.cpp.i
+.PHONY : Operator.cpp.i
+
+Operator.s: Operator.cpp.s
+
+.PHONY : Operator.s
+
+# target to generate assembly for a file
+Operator.cpp.s:
+	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/Operator.cpp.s
+.PHONY : Operator.cpp.s
+
 Sum.o: Sum.cpp.o
 
 .PHONY : Sum.o
@@ -396,32 +450,32 @@ Sum.cpp.s:
 	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/Sum.cpp.s
 .PHONY : Sum.cpp.s
 
-SumSimplificationRoutines.o: SumSimplificationRoutines.cpp.o
+SumIterator.o: SumIterator.cpp.o
 
-.PHONY : SumSimplificationRoutines.o
+.PHONY : SumIterator.o
 
 # target to build an object file
-SumSimplificationRoutines.cpp.o:
-	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.o
-.PHONY : SumSimplificationRoutines.cpp.o
+SumIterator.cpp.o:
+	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/SumIterator.cpp.o
+.PHONY : SumIterator.cpp.o
 
-SumSimplificationRoutines.i: SumSimplificationRoutines.cpp.i
+SumIterator.i: SumIterator.cpp.i
 
-.PHONY : SumSimplificationRoutines.i
+.PHONY : SumIterator.i
 
 # target to preprocess a source file
-SumSimplificationRoutines.cpp.i:
-	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.i
-.PHONY : SumSimplificationRoutines.cpp.i
+SumIterator.cpp.i:
+	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/SumIterator.cpp.i
+.PHONY : SumIterator.cpp.i
 
-SumSimplificationRoutines.s: SumSimplificationRoutines.cpp.s
+SumIterator.s: SumIterator.cpp.s
 
-.PHONY : SumSimplificationRoutines.s
+.PHONY : SumIterator.s
 
 # target to generate assembly for a file
-SumSimplificationRoutines.cpp.s:
-	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.s
-.PHONY : SumSimplificationRoutines.cpp.s
+SumIterator.cpp.s:
+	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/SumIterator.cpp.s
+.PHONY : SumIterator.cpp.s
 
 Value.o: Value.cpp.o
 
@@ -504,18 +558,24 @@ help:
 	@echo "... Equality.o"
 	@echo "... Equality.i"
 	@echo "... Equality.s"
+	@echo "... EqualityComparable.o"
+	@echo "... EqualityComparable.i"
+	@echo "... EqualityComparable.s"
 	@echo "... Logarithm.o"
 	@echo "... Logarithm.i"
 	@echo "... Logarithm.s"
 	@echo "... Multiplication.o"
 	@echo "... Multiplication.i"
 	@echo "... Multiplication.s"
+	@echo "... Operator.o"
+	@echo "... Operator.i"
+	@echo "... Operator.s"
 	@echo "... Sum.o"
 	@echo "... Sum.i"
 	@echo "... Sum.s"
-	@echo "... SumSimplificationRoutines.o"
-	@echo "... SumSimplificationRoutines.i"
-	@echo "... SumSimplificationRoutines.s"
+	@echo "... SumIterator.o"
+	@echo "... SumIterator.i"
+	@echo "... SumIterator.s"
 	@echo "... Value.o"
 	@echo "... Value.i"
 	@echo "... Value.s"

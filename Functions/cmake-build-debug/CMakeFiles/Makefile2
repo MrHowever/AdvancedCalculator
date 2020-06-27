@@ -35,19 +35,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mrhowever/Programming/Projects/Functions
+CMAKE_SOURCE_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mrhowever/Programming/Projects/Functions/cmake-build-debug
+CMAKE_BINARY_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -156,14 +156,14 @@ Tests/lib/googletest/clean: Tests/lib/googletest/CMakeFiles/gtest.dir/clean
 CMakeFiles/Functions.dir/all:
 	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/depend
 	$(MAKE) -f CMakeFiles/Functions.dir/build.make CMakeFiles/Functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target Functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target Functions"
 .PHONY : CMakeFiles/Functions.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Functions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Functions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Functions.dir/rule
 
 # Convenience name for target.
@@ -185,14 +185,14 @@ Tests/CMakeFiles/Google_Tests_run.dir/all: Tests/lib/googletest/CMakeFiles/gtest
 Tests/CMakeFiles/Google_Tests_run.dir/all: Tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f Tests/CMakeFiles/Google_Tests_run.dir/build.make Tests/CMakeFiles/Google_Tests_run.dir/depend
 	$(MAKE) -f Tests/CMakeFiles/Google_Tests_run.dir/build.make Tests/CMakeFiles/Google_Tests_run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=11,12,13,14,15 "Built target Google_Tests_run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=13,14,15,16 "Built target Google_Tests_run"
 .PHONY : Tests/CMakeFiles/Google_Tests_run.dir/all
 
 # Build rule for subdir invocation for target.
 Tests/CMakeFiles/Google_Tests_run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 20
 	$(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeFiles/Google_Tests_run.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 0
 .PHONY : Tests/CMakeFiles/Google_Tests_run.dir/rule
 
 # Convenience name for target.
@@ -213,14 +213,14 @@ Tests/lib/googlemock/CMakeFiles/gmock_main.dir/all: Tests/lib/googlemock/CMakeFi
 Tests/lib/googlemock/CMakeFiles/gmock_main.dir/all: Tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f Tests/lib/googlemock/CMakeFiles/gmock_main.dir/build.make Tests/lib/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f Tests/lib/googlemock/CMakeFiles/gmock_main.dir/build.make Tests/lib/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=19,20 "Built target gmock_main"
 .PHONY : Tests/lib/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 Tests/lib/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 6
 	$(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 0
 .PHONY : Tests/lib/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -240,14 +240,14 @@ Tests/lib/googlemock/CMakeFiles/gmock_main.dir/clean:
 Tests/lib/googlemock/CMakeFiles/gmock.dir/all: Tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f Tests/lib/googlemock/CMakeFiles/gmock.dir/build.make Tests/lib/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f Tests/lib/googlemock/CMakeFiles/gmock.dir/build.make Tests/lib/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=17,18 "Built target gmock"
 .PHONY : Tests/lib/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 Tests/lib/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 0
 .PHONY : Tests/lib/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -267,14 +267,14 @@ Tests/lib/googlemock/CMakeFiles/gmock.dir/clean:
 Tests/lib/googletest/CMakeFiles/gtest_main.dir/all: Tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Tests/lib/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Tests/lib/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=23,24 "Built target gtest_main"
 .PHONY : Tests/lib/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 Tests/lib/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 0
 .PHONY : Tests/lib/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -294,14 +294,14 @@ Tests/lib/googletest/CMakeFiles/gtest_main.dir/clean:
 Tests/lib/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Tests/lib/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Tests/lib/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=21,22 "Built target gtest"
 .PHONY : Tests/lib/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 Tests/lib/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 0
 .PHONY : Tests/lib/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.

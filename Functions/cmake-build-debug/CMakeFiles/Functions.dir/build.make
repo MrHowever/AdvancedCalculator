@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mrhowever/Programming/Projects/Functions
+CMAKE_SOURCE_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mrhowever/Programming/Projects/Functions/cmake-build-debug
+CMAKE_BINARY_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Functions.dir/depend.make
@@ -59,120 +59,146 @@ include CMakeFiles/Functions.dir/flags.make
 
 CMakeFiles/Functions.dir/Sum.cpp.o: CMakeFiles/Functions.dir/flags.make
 CMakeFiles/Functions.dir/Sum.cpp.o: ../Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Functions.dir/Sum.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Sum.cpp.o -c /home/mrhowever/Programming/Projects/Functions/Sum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Functions.dir/Sum.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Sum.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.cpp"
 
 CMakeFiles/Functions.dir/Sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Functions.dir/Sum.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/Sum.cpp > CMakeFiles/Functions.dir/Sum.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.cpp" > CMakeFiles/Functions.dir/Sum.cpp.i
 
 CMakeFiles/Functions.dir/Sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Functions.dir/Sum.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/Sum.cpp -o CMakeFiles/Functions.dir/Sum.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.cpp" -o CMakeFiles/Functions.dir/Sum.cpp.s
 
 CMakeFiles/Functions.dir/Logarithm.cpp.o: CMakeFiles/Functions.dir/flags.make
 CMakeFiles/Functions.dir/Logarithm.cpp.o: ../Logarithm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Functions.dir/Logarithm.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Logarithm.cpp.o -c /home/mrhowever/Programming/Projects/Functions/Logarithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Functions.dir/Logarithm.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Logarithm.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.cpp"
 
 CMakeFiles/Functions.dir/Logarithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Functions.dir/Logarithm.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/Logarithm.cpp > CMakeFiles/Functions.dir/Logarithm.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.cpp" > CMakeFiles/Functions.dir/Logarithm.cpp.i
 
 CMakeFiles/Functions.dir/Logarithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Functions.dir/Logarithm.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/Logarithm.cpp -o CMakeFiles/Functions.dir/Logarithm.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.cpp" -o CMakeFiles/Functions.dir/Logarithm.cpp.s
 
 CMakeFiles/Functions.dir/Value.cpp.o: CMakeFiles/Functions.dir/flags.make
 CMakeFiles/Functions.dir/Value.cpp.o: ../Value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Functions.dir/Value.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Value.cpp.o -c /home/mrhowever/Programming/Projects/Functions/Value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Functions.dir/Value.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Value.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.cpp"
 
 CMakeFiles/Functions.dir/Value.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Functions.dir/Value.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/Value.cpp > CMakeFiles/Functions.dir/Value.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.cpp" > CMakeFiles/Functions.dir/Value.cpp.i
 
 CMakeFiles/Functions.dir/Value.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Functions.dir/Value.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/Value.cpp -o CMakeFiles/Functions.dir/Value.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.cpp" -o CMakeFiles/Functions.dir/Value.cpp.s
 
 CMakeFiles/Functions.dir/Multiplication.cpp.o: CMakeFiles/Functions.dir/flags.make
 CMakeFiles/Functions.dir/Multiplication.cpp.o: ../Multiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Functions.dir/Multiplication.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Multiplication.cpp.o -c /home/mrhowever/Programming/Projects/Functions/Multiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Functions.dir/Multiplication.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Multiplication.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.cpp"
 
 CMakeFiles/Functions.dir/Multiplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Functions.dir/Multiplication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/Multiplication.cpp > CMakeFiles/Functions.dir/Multiplication.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.cpp" > CMakeFiles/Functions.dir/Multiplication.cpp.i
 
 CMakeFiles/Functions.dir/Multiplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Functions.dir/Multiplication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/Multiplication.cpp -o CMakeFiles/Functions.dir/Multiplication.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.cpp" -o CMakeFiles/Functions.dir/Multiplication.cpp.s
 
 CMakeFiles/Functions.dir/Division.cpp.o: CMakeFiles/Functions.dir/flags.make
 CMakeFiles/Functions.dir/Division.cpp.o: ../Division.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Functions.dir/Division.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Division.cpp.o -c /home/mrhowever/Programming/Projects/Functions/Division.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Functions.dir/Division.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Division.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.cpp"
 
 CMakeFiles/Functions.dir/Division.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Functions.dir/Division.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/Division.cpp > CMakeFiles/Functions.dir/Division.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.cpp" > CMakeFiles/Functions.dir/Division.cpp.i
 
 CMakeFiles/Functions.dir/Division.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Functions.dir/Division.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/Division.cpp -o CMakeFiles/Functions.dir/Division.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.cpp" -o CMakeFiles/Functions.dir/Division.cpp.s
 
 CMakeFiles/Functions.dir/Variable.cpp.o: CMakeFiles/Functions.dir/flags.make
 CMakeFiles/Functions.dir/Variable.cpp.o: ../Variable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Functions.dir/Variable.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Variable.cpp.o -c /home/mrhowever/Programming/Projects/Functions/Variable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Functions.dir/Variable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Variable.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.cpp"
 
 CMakeFiles/Functions.dir/Variable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Functions.dir/Variable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/Variable.cpp > CMakeFiles/Functions.dir/Variable.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.cpp" > CMakeFiles/Functions.dir/Variable.cpp.i
 
 CMakeFiles/Functions.dir/Variable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Functions.dir/Variable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/Variable.cpp -o CMakeFiles/Functions.dir/Variable.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.cpp" -o CMakeFiles/Functions.dir/Variable.cpp.s
 
 CMakeFiles/Functions.dir/Equality.cpp.o: CMakeFiles/Functions.dir/flags.make
 CMakeFiles/Functions.dir/Equality.cpp.o: ../Equality.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Functions.dir/Equality.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Equality.cpp.o -c /home/mrhowever/Programming/Projects/Functions/Equality.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Functions.dir/Equality.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Equality.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Equality.cpp"
 
 CMakeFiles/Functions.dir/Equality.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Functions.dir/Equality.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/Equality.cpp > CMakeFiles/Functions.dir/Equality.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Equality.cpp" > CMakeFiles/Functions.dir/Equality.cpp.i
 
 CMakeFiles/Functions.dir/Equality.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Functions.dir/Equality.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/Equality.cpp -o CMakeFiles/Functions.dir/Equality.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Equality.cpp" -o CMakeFiles/Functions.dir/Equality.cpp.s
 
 CMakeFiles/Functions.dir/ArithmeticObject.cpp.o: CMakeFiles/Functions.dir/flags.make
 CMakeFiles/Functions.dir/ArithmeticObject.cpp.o: ../ArithmeticObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Functions.dir/ArithmeticObject.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/ArithmeticObject.cpp.o -c /home/mrhowever/Programming/Projects/Functions/ArithmeticObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Functions.dir/ArithmeticObject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/ArithmeticObject.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.cpp"
 
 CMakeFiles/Functions.dir/ArithmeticObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Functions.dir/ArithmeticObject.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/ArithmeticObject.cpp > CMakeFiles/Functions.dir/ArithmeticObject.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.cpp" > CMakeFiles/Functions.dir/ArithmeticObject.cpp.i
 
 CMakeFiles/Functions.dir/ArithmeticObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Functions.dir/ArithmeticObject.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/ArithmeticObject.cpp -o CMakeFiles/Functions.dir/ArithmeticObject.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.cpp" -o CMakeFiles/Functions.dir/ArithmeticObject.cpp.s
 
-CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.o: CMakeFiles/Functions.dir/flags.make
-CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.o: ../SumSimplificationRoutines.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.o -c /home/mrhowever/Programming/Projects/Functions/SumSimplificationRoutines.cpp
+CMakeFiles/Functions.dir/EqualityComparable.cpp.o: CMakeFiles/Functions.dir/flags.make
+CMakeFiles/Functions.dir/EqualityComparable.cpp.o: ../EqualityComparable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Functions.dir/EqualityComparable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/EqualityComparable.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.cpp"
 
-CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/SumSimplificationRoutines.cpp > CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.i
+CMakeFiles/Functions.dir/EqualityComparable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Functions.dir/EqualityComparable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.cpp" > CMakeFiles/Functions.dir/EqualityComparable.cpp.i
 
-CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/SumSimplificationRoutines.cpp -o CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.s
+CMakeFiles/Functions.dir/EqualityComparable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Functions.dir/EqualityComparable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.cpp" -o CMakeFiles/Functions.dir/EqualityComparable.cpp.s
+
+CMakeFiles/Functions.dir/Operator.cpp.o: CMakeFiles/Functions.dir/flags.make
+CMakeFiles/Functions.dir/Operator.cpp.o: ../Operator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Functions.dir/Operator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/Operator.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.cpp"
+
+CMakeFiles/Functions.dir/Operator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Functions.dir/Operator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.cpp" > CMakeFiles/Functions.dir/Operator.cpp.i
+
+CMakeFiles/Functions.dir/Operator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Functions.dir/Operator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.cpp" -o CMakeFiles/Functions.dir/Operator.cpp.s
+
+CMakeFiles/Functions.dir/SumIterator.cpp.o: CMakeFiles/Functions.dir/flags.make
+CMakeFiles/Functions.dir/SumIterator.cpp.o: ../SumIterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Functions.dir/SumIterator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Functions.dir/SumIterator.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.cpp"
+
+CMakeFiles/Functions.dir/SumIterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Functions.dir/SumIterator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.cpp" > CMakeFiles/Functions.dir/SumIterator.cpp.i
+
+CMakeFiles/Functions.dir/SumIterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Functions.dir/SumIterator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.cpp" -o CMakeFiles/Functions.dir/SumIterator.cpp.s
 
 # Object files for target Functions
 Functions_OBJECTS = \
@@ -184,7 +210,9 @@ Functions_OBJECTS = \
 "CMakeFiles/Functions.dir/Variable.cpp.o" \
 "CMakeFiles/Functions.dir/Equality.cpp.o" \
 "CMakeFiles/Functions.dir/ArithmeticObject.cpp.o" \
-"CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.o"
+"CMakeFiles/Functions.dir/EqualityComparable.cpp.o" \
+"CMakeFiles/Functions.dir/Operator.cpp.o" \
+"CMakeFiles/Functions.dir/SumIterator.cpp.o"
 
 # External object files for target Functions
 Functions_EXTERNAL_OBJECTS =
@@ -197,10 +225,12 @@ Functions_EXTERNAL_OBJECTS =
 ../lib/libFunctions.a: CMakeFiles/Functions.dir/Variable.cpp.o
 ../lib/libFunctions.a: CMakeFiles/Functions.dir/Equality.cpp.o
 ../lib/libFunctions.a: CMakeFiles/Functions.dir/ArithmeticObject.cpp.o
-../lib/libFunctions.a: CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.o
+../lib/libFunctions.a: CMakeFiles/Functions.dir/EqualityComparable.cpp.o
+../lib/libFunctions.a: CMakeFiles/Functions.dir/Operator.cpp.o
+../lib/libFunctions.a: CMakeFiles/Functions.dir/SumIterator.cpp.o
 ../lib/libFunctions.a: CMakeFiles/Functions.dir/build.make
 ../lib/libFunctions.a: CMakeFiles/Functions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library ../lib/libFunctions.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library ../lib/libFunctions.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Functions.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Functions.dir/link.txt --verbose=$(VERBOSE)
 
@@ -214,6 +244,6 @@ CMakeFiles/Functions.dir/clean:
 .PHONY : CMakeFiles/Functions.dir/clean
 
 CMakeFiles/Functions.dir/depend:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mrhowever/Programming/Projects/Functions /home/mrhowever/Programming/Projects/Functions /home/mrhowever/Programming/Projects/Functions/cmake-build-debug /home/mrhowever/Programming/Projects/Functions/cmake-build-debug /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles/Functions.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/Functions.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Functions.dir/depend
 

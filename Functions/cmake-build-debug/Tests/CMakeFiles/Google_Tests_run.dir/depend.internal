@@ -22,37 +22,27 @@ Tests/CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.o
  ../Tests/lib/googletest/include/gtest/internal/gtest-port.h
  ../Tests/lib/googletest/include/gtest/internal/gtest-string.h
  ../Tests/lib/googletest/include/gtest/internal/gtest-type-util.h
- /home/mrhowever/Programming/Projects/BasicOperations/include/BasicOperations.hh
- /home/mrhowever/Programming/Projects/BasicOperations/include/BasicOperationsException.hh
- /home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
- /home/mrhowever/Programming/Projects/Functions/ArithmeticType.hh
- /home/mrhowever/Programming/Projects/Functions/Division.hh
- /home/mrhowever/Programming/Projects/Functions/Division.tcc
- /home/mrhowever/Programming/Projects/Functions/Equality.hh
- /home/mrhowever/Programming/Projects/Functions/Equality.tcc
- /home/mrhowever/Programming/Projects/Functions/IncludeDivision.hh
- /home/mrhowever/Programming/Projects/Functions/IncludeLogarithmMap.hh
- /home/mrhowever/Programming/Projects/Functions/IncludeSum.hh
- /home/mrhowever/Programming/Projects/Functions/IncludeValue.hh
- /home/mrhowever/Programming/Projects/Functions/InvalidOperationException.hh
- /home/mrhowever/Programming/Projects/Functions/Logarithm.hh
- /home/mrhowever/Programming/Projects/Functions/LogarithmMap.hh
- /home/mrhowever/Programming/Projects/Functions/LogarithmMap.tcc
- /home/mrhowever/Programming/Projects/Functions/Multiplication.hh
- /home/mrhowever/Programming/Projects/Functions/Multiplication.tcc
- /home/mrhowever/Programming/Projects/Functions/OperatorFactory.hh
- /home/mrhowever/Programming/Projects/Functions/Sum.hh
- /home/mrhowever/Programming/Projects/Functions/Sum.tcc
- /home/mrhowever/Programming/Projects/Functions/Tests/DivisionTests.cpp
- /home/mrhowever/Programming/Projects/Functions/Typedef.hh
- /home/mrhowever/Programming/Projects/Functions/Typedefs.hh
- /home/mrhowever/Programming/Projects/Functions/Value.hh
- /home/mrhowever/Programming/Projects/Functions/Value.tcc
- /home/mrhowever/Programming/Projects/Functions/Variable.hh
- /home/mrhowever/Programming/Projects/Interfaces/include/Bounded.hh
- /home/mrhowever/Programming/Projects/Interfaces/include/Comparable.hh
- /home/mrhowever/Programming/Projects/Interfaces/include/EqualityComparable.hh
- /home/mrhowever/Programming/Projects/TypeTraits/include/CustomTypeTraits.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticType.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/InvalidOperationException.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Iterable.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/DivisionTests.cpp
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
 Tests/CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.o
  ../Tests/lib/googletest/include/gtest/gtest-death-test.h
  ../Tests/lib/googletest/include/gtest/gtest-matchers.h
@@ -74,37 +64,26 @@ Tests/CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.o
  ../Tests/lib/googletest/include/gtest/internal/gtest-port.h
  ../Tests/lib/googletest/include/gtest/internal/gtest-string.h
  ../Tests/lib/googletest/include/gtest/internal/gtest-type-util.h
- /home/mrhowever/Programming/Projects/BasicOperations/include/BasicOperations.hh
- /home/mrhowever/Programming/Projects/BasicOperations/include/BasicOperationsException.hh
- /home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
- /home/mrhowever/Programming/Projects/Functions/ArithmeticType.hh
- /home/mrhowever/Programming/Projects/Functions/Division.hh
- /home/mrhowever/Programming/Projects/Functions/Division.tcc
- /home/mrhowever/Programming/Projects/Functions/Equality.hh
- /home/mrhowever/Programming/Projects/Functions/Equality.tcc
- /home/mrhowever/Programming/Projects/Functions/IncludeDivision.hh
- /home/mrhowever/Programming/Projects/Functions/IncludeLogarithmMap.hh
- /home/mrhowever/Programming/Projects/Functions/IncludeSum.hh
- /home/mrhowever/Programming/Projects/Functions/IncludeValue.hh
- /home/mrhowever/Programming/Projects/Functions/InvalidOperationException.hh
- /home/mrhowever/Programming/Projects/Functions/Logarithm.hh
- /home/mrhowever/Programming/Projects/Functions/LogarithmMap.hh
- /home/mrhowever/Programming/Projects/Functions/LogarithmMap.tcc
- /home/mrhowever/Programming/Projects/Functions/Multiplication.hh
- /home/mrhowever/Programming/Projects/Functions/Multiplication.tcc
- /home/mrhowever/Programming/Projects/Functions/OperatorFactory.hh
- /home/mrhowever/Programming/Projects/Functions/Sum.hh
- /home/mrhowever/Programming/Projects/Functions/Sum.tcc
- /home/mrhowever/Programming/Projects/Functions/Tests/FunctionsTests.cpp
- /home/mrhowever/Programming/Projects/Functions/Typedef.hh
- /home/mrhowever/Programming/Projects/Functions/Typedefs.hh
- /home/mrhowever/Programming/Projects/Functions/Value.hh
- /home/mrhowever/Programming/Projects/Functions/Value.tcc
- /home/mrhowever/Programming/Projects/Functions/Variable.hh
- /home/mrhowever/Programming/Projects/Interfaces/include/Bounded.hh
- /home/mrhowever/Programming/Projects/Interfaces/include/Comparable.hh
- /home/mrhowever/Programming/Projects/Interfaces/include/EqualityComparable.hh
- /home/mrhowever/Programming/Projects/TypeTraits/include/CustomTypeTraits.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticType.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/InvalidOperationException.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Iterable.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/FunctionsTests.cpp
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
 Tests/CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.o
  ../Tests/lib/googletest/include/gtest/gtest-death-test.h
  ../Tests/lib/googletest/include/gtest/gtest-matchers.h
@@ -126,37 +105,24 @@ Tests/CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.o
  ../Tests/lib/googletest/include/gtest/internal/gtest-port.h
  ../Tests/lib/googletest/include/gtest/internal/gtest-string.h
  ../Tests/lib/googletest/include/gtest/internal/gtest-type-util.h
- /home/mrhowever/Programming/Projects/BasicOperations/include/BasicOperations.hh
- /home/mrhowever/Programming/Projects/BasicOperations/include/BasicOperationsException.hh
- /home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
- /home/mrhowever/Programming/Projects/Functions/ArithmeticType.hh
- /home/mrhowever/Programming/Projects/Functions/Division.hh
- /home/mrhowever/Programming/Projects/Functions/Division.tcc
- /home/mrhowever/Programming/Projects/Functions/Equality.hh
- /home/mrhowever/Programming/Projects/Functions/Equality.tcc
- /home/mrhowever/Programming/Projects/Functions/IncludeDivision.hh
- /home/mrhowever/Programming/Projects/Functions/IncludeLogarithmMap.hh
- /home/mrhowever/Programming/Projects/Functions/IncludeSum.hh
- /home/mrhowever/Programming/Projects/Functions/IncludeValue.hh
- /home/mrhowever/Programming/Projects/Functions/InvalidOperationException.hh
- /home/mrhowever/Programming/Projects/Functions/Logarithm.hh
- /home/mrhowever/Programming/Projects/Functions/LogarithmMap.hh
- /home/mrhowever/Programming/Projects/Functions/LogarithmMap.tcc
- /home/mrhowever/Programming/Projects/Functions/Multiplication.hh
- /home/mrhowever/Programming/Projects/Functions/Multiplication.tcc
- /home/mrhowever/Programming/Projects/Functions/OperatorFactory.hh
- /home/mrhowever/Programming/Projects/Functions/Sum.hh
- /home/mrhowever/Programming/Projects/Functions/Sum.tcc
- /home/mrhowever/Programming/Projects/Functions/Tests/MultiplicationTests.cpp
- /home/mrhowever/Programming/Projects/Functions/Typedef.hh
- /home/mrhowever/Programming/Projects/Functions/Typedefs.hh
- /home/mrhowever/Programming/Projects/Functions/Value.hh
- /home/mrhowever/Programming/Projects/Functions/Value.tcc
- /home/mrhowever/Programming/Projects/Functions/Variable.hh
- /home/mrhowever/Programming/Projects/Interfaces/include/Bounded.hh
- /home/mrhowever/Programming/Projects/Interfaces/include/Comparable.hh
- /home/mrhowever/Programming/Projects/Interfaces/include/EqualityComparable.hh
- /home/mrhowever/Programming/Projects/TypeTraits/include/CustomTypeTraits.hh
-Tests/CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.o
- /home/mrhowever/Programming/Projects/Functions/CustomPointer.cpp
- /home/mrhowever/Programming/Projects/Functions/CustomPointer.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticType.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/InvalidOperationException.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Iterable.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/MultiplicationTests.cpp
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.tcc
+ /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh

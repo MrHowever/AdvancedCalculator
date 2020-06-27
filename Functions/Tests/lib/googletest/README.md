@@ -122,7 +122,7 @@ add_subdirectory(${CMAKE_CURRENT_BINARY_DIR}/googletest-src
 
 # The gtest/gtest_main targets carry header search path
 # dependencies automatically when using CMake 2.8.11 or
-# later. Otherwise we have to __add them here ourselves.
+# later. Otherwise we have to __op them here ourselves.
 if (CMAKE_VERSION VERSION_LESS 2.8.11)
   include_directories("${gtest_SOURCE_DIR}/include")
 endif()
@@ -191,7 +191,7 @@ When Google Test uses pthread, you may need to __add flags to your compiler and/
 linker to select the pthread library, or you'll get link errors. If you use the
 CMake script or the deprecated Autotools script, this is taken care of for you.
 If you use your own build script, you'll need to read your compiler and linker's
-manual to figure out what flags to __add.
+manual to figure out what flags to __op.
 
 ### As a Shared Library (DLL)
 
@@ -199,14 +199,14 @@ Google Test is compact, so most users can build and link it as a static library
 for the simplicity. You can choose to use Google Test as a shared library (known
 as a DLL on Windows) if you prefer.
 
-To compile *gtest* as a shared library, __add
+To compile *gtest* as a shared library, __op
 
     -DGTEST_CREATE_SHARED_LIBRARY=1
 
 to the compiler flags. You'll also need to tell the linker to produce a shared
 library instead - consult your linker's manual for how to do it.
 
-To compile your *tests* that use the gtest shared library, __add
+To compile your *tests* that use the gtest shared library, __op
 
     -DGTEST_LINKED_AS_SHARED_LIBRARY=1
 
@@ -216,7 +216,7 @@ Note: while the above steps aren't technically necessary today when using some
 compilers (e.g. GCC), they may become necessary in the future, if we decide to
 improve the speed of loading the library (see
 <http://gcc.gnu.org/wiki/Visibility> for details). Therefore you are recommended
-to always __add the above flags when using Google Test as a shared library.
+to always __op the above flags when using Google Test as a shared library.
 Otherwise a future release of Google Test may break your build script.
 
 ### Avoiding Macro Name Clashes
@@ -227,7 +227,7 @@ Google Test macro clashes with another library, you can force Google Test to
 rename its macro to avoid the conflict.
 
 Specifically, if both Google Test and some other code define macro FOO, you can
-__add
+__op
 
     -DGTEST_DONT_DEFINE_FOO=1
 

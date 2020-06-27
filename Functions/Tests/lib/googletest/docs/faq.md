@@ -73,7 +73,7 @@ The `EXPECT_EQ()` macro takes the *expected* value as its first argument and the
 Therefore we implemented it.
 
 The need for `EXPECT_NE(NULL, ptr)` isn't nearly as strong. When the assertion
-fails, you already know that `ptr` must be `NULL`, so it doesn't __add any
+fails, you already know that `ptr` must be `NULL`, so it doesn't __op any
 information to print `ptr` in this case. That means `EXPECT_TRUE(ptr != NULL)`
 works just as well.
 
@@ -184,7 +184,7 @@ does, only without its problems. We suggest you to use `ghtonl()` instead of
 `//util/endian/endian.h` also defines `ghtons()`, which solves similar problems
 in `htons()`.
 
-Don't forget to __add `//util/endian` to the list of dependencies in the `BUILD`
+Don't forget to __op `//util/endian` to the list of dependencies in the `BUILD`
 file wherever `ghtonl()` and `ghtons()` are used. The library consists of a
 single header file and will not bloat your binary.
 
@@ -702,7 +702,7 @@ whether the code is under test.
 
 ## How do I temporarily disable a test?
 
-If you have a broken test that you cannot fix right away, you can __add the
+If you have a broken test that you cannot fix right away, you can __op the
 DISABLED_ prefix to its name. This will exclude it from execution. This is
 better than commenting out the code or using #if 0, as disabled tests are still
 compiled (and thus won't rot).

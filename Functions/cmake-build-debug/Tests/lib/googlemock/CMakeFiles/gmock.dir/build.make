@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mrhowever/Programming/Projects/Functions
+CMAKE_SOURCE_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mrhowever/Programming/Projects/Functions/cmake-build-debug
+CMAKE_BINARY_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include Tests/lib/googlemock/CMakeFiles/gmock.dir/depend.make
@@ -59,16 +59,16 @@ include Tests/lib/googlemock/CMakeFiles/gmock.dir/flags.make
 
 Tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: Tests/lib/googlemock/CMakeFiles/gmock.dir/flags.make
 Tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: ../Tests/lib/googlemock/src/gmock-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock/src/gmock-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googlemock" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/lib/googlemock/src/gmock-all.cc"
 
 Tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/lib/googlemock/src/gmock-all.cc" > CMakeFiles/gmock.dir/src/gmock-all.cc.i
 
 Tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/lib/googlemock/src/gmock-all.cc" -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
 
 # Object files for target gmock
 gmock_OBJECTS = \
@@ -80,9 +80,9 @@ gmock_EXTERNAL_OBJECTS =
 lib/libgmockd.a: Tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 lib/libgmockd.a: Tests/lib/googlemock/CMakeFiles/gmock.dir/build.make
 lib/libgmockd.a: Tests/lib/googlemock/CMakeFiles/gmock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgmockd.a"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgmockd.a"
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googlemock" && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googlemock" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Tests/lib/googlemock/CMakeFiles/gmock.dir/build: lib/libgmockd.a
@@ -90,10 +90,10 @@ Tests/lib/googlemock/CMakeFiles/gmock.dir/build: lib/libgmockd.a
 .PHONY : Tests/lib/googlemock/CMakeFiles/gmock.dir/build
 
 Tests/lib/googlemock/CMakeFiles/gmock.dir/clean:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googlemock" && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
 .PHONY : Tests/lib/googlemock/CMakeFiles/gmock.dir/clean
 
 Tests/lib/googlemock/CMakeFiles/gmock.dir/depend:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mrhowever/Programming/Projects/Functions /home/mrhowever/Programming/Projects/Functions/Tests/lib/googlemock /home/mrhowever/Programming/Projects/Functions/cmake-build-debug /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/lib/googlemock" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googlemock" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Tests/lib/googlemock/CMakeFiles/gmock.dir/depend
 

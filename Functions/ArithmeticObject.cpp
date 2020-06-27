@@ -1,15 +1,11 @@
-//
-// Created by mrhowever on 27.02.2020.
-//
-
-#include "ArithmeticObject.hh"
 #include <iostream>
+#include "ArithmeticObject.hh"
 
 namespace MC::FN
 {
-    std::ostream& operator<<(std::ostream& strm, const Operand& obj)
+    std::ostream& operator<<(std::ostream& strm, const ArithmeticObject& obj)
     {
-        strm << obj.print();
+        return strm << obj.print();
     }
 
     void ArithmeticObject::__appendIf(std::string& output, const std::string& input, char separator) const

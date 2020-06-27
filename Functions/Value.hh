@@ -1,14 +1,8 @@
-//
-// Created by mrhowever on 11.02.2020.
-//
-
 #ifndef FUNCTIONS_VALUE_HH
 #define FUNCTIONS_VALUE_HH
 
-#include <cstdint>
-#include <string>
-#include <list>
 #include "ArithmeticObject.hh"
+#include <cstdint>
 
 namespace MC::FN
 {
@@ -78,9 +72,8 @@ namespace MC::FN
         template<typename T> [[nodiscard]] bool operator>(const T&) const;
         template<typename T> [[nodiscard]] bool operator>=(const T&) const;
 
-        void simplify() override;
         [[nodiscard]] Value evaluate(const Value&) const override;
-        [[nodiscard]] ArithmeticType getType() const override;
+        [[nodiscard]] constexpr ArithmeticType getType() const override { return VAL; }
         [[nodiscard]] std::string print() const override;
 
         operator bool() const;
@@ -88,3 +81,5 @@ namespace MC::FN
 }
 
 #endif //FUNCTIONS_VALUE_HH
+
+#include "Value.tcc"

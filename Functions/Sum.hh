@@ -1,85 +1,76 @@
-//
-// Created by mrhowever on 28.01.20.
-//
-
 #ifndef FUNCTIONS_SUM_HH
 #define FUNCTIONS_SUM_HH
 
-#include <string>
-#include <functional>
-#include "ArithmeticObject.hh"
-#include "Typedef.hh"
-#include "Typedefs.hh"
-#include "LogarithmMap.hh"
-#include "Value.hh"
-#include "Variable.hh"
+#include "Operator.hh"
+#include "EqualityComparable.hh"
+#include "SumIterator.hh"
+#include "Iterable.hh"
+#include <map>
+#include <unordered_map>
 
 namespace MC::FN
 {
-    typedef LogarithmMap<Logarithm> LogarithmAdditionMap;
+    class Sum : public Operator, public EqualityComparable<Sum>, public Iterable<SumIterator> {
 
-    class Sum : public ArithmeticObject {
+        // Operands
+        Division* _div;
+        Value* _value;
+        std::list<Multiplication*> _muls;
+        std::unordered_map<char, Variable*> _vars;
+        std::unordered_map<ArithmeticObject*,Logarithm*> _logs;
 
-        LogarithmAdditionMap  _logs;
-        std::list<Multiplication> _muls;
-        Division*  _div;
-        std::unordered_map<Variable, Value> _vars;
-        Value _value;
+        // Fast access list
+        std::list<ArithmeticObject*> _faList;
 
+        // Base constructor
         Sum();
 
-        template<typename T> void __add(const T&);
-        template<typename T, typename = EnableIfIsArithmetic<T>> void invokeOperation(const T&);
-        template<typename T, typename = EnableIfIsArithmetic<T>> void invokeOperation(const T*);
+        // Operation implementations
+        void __op(const Sum&) override;
+        void __op(const Multiplication&) override;
+        void __op(const Division&) override;
+        void __op(const Value&) override;
+        void __op(const Variable&) override;
+        void __op(const Logarithm&) override;
 
     public:
+        // Public constructor for binary operator
         template<typename T, typename P> Sum(const T&, const P&);
+        Sum(const Sum&);
 
-        [[nodiscard]] bool operator==(const Sum&) const;
-        [[nodiscard]] bool operator!=(const Sum&) const;
+        // Equality operators
+        [[nodiscard]] bool operator==(const Sum&) const override;
+        [[nodiscard]] bool operator!=(const Sum&) const override;
 
-        void simplify() override;
+        // Inherited ArithmeticObject behaviour
         [[nodiscard]] Value evaluate(const Value&) const override;
         [[nodiscard]] std::string print() const override;
-        [[nodiscard]] ArithmeticType getType() const override;
+        [[nodiscard]] constexpr ArithmeticType getType() const override;
 
-        [[nodiscard]] SumIterator begin() const;
-        [[nodiscard]] SumIterator end() const;
-
-        ~Sum();
-
-        friend SumIterator;
-    };
-
-    class SumIterator {
-        const Sum& _sum;
-        std::unordered_map<Variable,Value>::const_iterator _varIt;
-        std::list<Multiplication>::const_iterator _multIt;
-        std::map<ArithmeticObject*,Logarithm>::const_iterator _logIt;
-        uint _currentStructure = 0;
-
-        bool _currentItEnd();
-        size_t structureSize(uint);
-        void advanceIterator();
+        // Inherited Iterable interface
+    private:
+        bool erase(const ArithmeticObject*) override { return false;} //TODO implement
     public:
-        explicit SumIterator(const Sum&);
-        static SumIterator end(const Sum&);
+        [[nodiscard]] SumIterator begin() const override;
+        [[nodiscard]] SumIterator end() const override;
 
-        SumIterator& operator++();
-        const Operand* operator*();
-        bool operator!=(const SumIterator&);
+        friend class SumIterator;
+
+        ~Sum() override;
     };
 
-    template<typename T, typename P, typename = EnableIfAreArithmetic<T,P>>
+    template<Arithmetic T, Arithmetic P>
     [[nodiscard]] Sum operator+(const T&, const P&);
 
-    template<typename T, typename P, typename = EnableIfIsArithmetic<T>, typename = EnableIfPrimitive<P>>
+    template<Arithmetic T, Primitive P>
     [[nodiscard]] Sum operator+(const T&, const P&);
 
-    template<typename T, typename P, typename = EnableIfIsArithmetic<T>, typename = EnableIfPrimitive<P>>
+    template<Arithmetic T, Primitive P>
     [[nodiscard]] Sum operator+(const P&, const T&);
 
     [[nodiscard]] Division operator+(const Division&, const Division&);
 }
+
+#include "Sum.tcc"
 
 #endif //FUNCTIONS_SUM_HH

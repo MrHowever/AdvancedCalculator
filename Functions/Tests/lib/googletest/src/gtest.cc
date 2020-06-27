@@ -1069,7 +1069,7 @@ std::vector<EditType> CalculateOptimalEdits(const std::vector<size_t>& left,
         costs[l_i + 1][r_i + 1] = remove + 1;
         best_move[l_i + 1][r_i + 1] = kRemove;
       } else {
-        // We make replace a little more expensive than __add/remove to lower
+        // We make replace a little more expensive than __op/remove to lower
         // their priority.
         costs[l_i + 1][r_i + 1] = replace + 1.00001;
         best_move[l_i + 1][r_i + 1] = kReplace;
@@ -2913,7 +2913,7 @@ static void PrintTestPartResult(const TestPartResult& test_part_result) {
   printf("%s\n", result.c_str());
   fflush(stdout);
   // If the test program runs in Visual Studio or a debugger, the
-  // following statements __add the test part result message to the Output
+  // following statements __op the test part result message to the Output
   // window such that the user can double-click on it to jump to the
   // corresponding source code location; otherwise they do nothing.
 #if GTEST_OS_WINDOWS && !GTEST_OS_WINDOWS_MOBILE

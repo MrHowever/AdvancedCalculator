@@ -300,323 +300,165 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/mrhowever/Programming/Projects/BasicOperations/include/BasicOperations.hh
-limits
--
-algorithm
--
-cmath
--
-BasicOperationsException.hh
-/home/mrhowever/Programming/Projects/BasicOperations/include/BasicOperationsException.hh
-Comparable.hh
--
-Bounded.hh
--
-CustomTypeTraits.hh
--
-
-/home/mrhowever/Programming/Projects/BasicOperations/include/BasicOperationsException.hh
-stdexcept
--
-
-/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
 ArithmeticType.hh
-/home/mrhowever/Programming/Projects/Functions/ArithmeticType.hh
-Typedef.hh
-/home/mrhowever/Programming/Projects/Functions/Typedef.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticType.hh
+string
+-
+ArithmeticObject.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.tcc
 
-/home/mrhowever/Programming/Projects/Functions/ArithmeticType.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.tcc
 
-/home/mrhowever/Programming/Projects/Functions/Division.hh
-ArithmeticObject.hh
-/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
-Typedefs.hh
-/home/mrhowever/Programming/Projects/Functions/Typedefs.hh
-Typedef.hh
-/home/mrhowever/Programming/Projects/Functions/Typedef.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticType.hh
 
-/home/mrhowever/Programming/Projects/Functions/Division.tcc
-Multiplication.hh
-/home/mrhowever/Programming/Projects/Functions/Multiplication.hh
-Logarithm.hh
-/home/mrhowever/Programming/Projects/Functions/Logarithm.hh
-
-/home/mrhowever/Programming/Projects/Functions/Equality.hh
-ArithmeticObject.hh
-/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
-Typedefs.hh
-/home/mrhowever/Programming/Projects/Functions/Typedefs.hh
-IncludeValue.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeValue.hh
-Equality.tcc
-/home/mrhowever/Programming/Projects/Functions/Equality.tcc
-
-/home/mrhowever/Programming/Projects/Functions/Equality.tcc
-OperatorFactory.hh
-/home/mrhowever/Programming/Projects/Functions/OperatorFactory.hh
-
-/home/mrhowever/Programming/Projects/Functions/IncludeDivision.hh
-Division.hh
-/home/mrhowever/Programming/Projects/Functions/Division.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
+Operator.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
+EqualityComparable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh
 Division.tcc
-/home/mrhowever/Programming/Projects/Functions/Division.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.tcc
 
-/home/mrhowever/Programming/Projects/Functions/IncludeLogarithmMap.hh
-LogarithmMap.hh
-/home/mrhowever/Programming/Projects/Functions/LogarithmMap.hh
-LogarithmMap.tcc
-/home/mrhowever/Programming/Projects/Functions/LogarithmMap.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.tcc
+Operator.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
 
-/home/mrhowever/Programming/Projects/Functions/IncludeSum.hh
-Sum.hh
-/home/mrhowever/Programming/Projects/Functions/Sum.hh
-Sum.tcc
-/home/mrhowever/Programming/Projects/Functions/Sum.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh
 
-/home/mrhowever/Programming/Projects/Functions/IncludeValue.hh
-Value.hh
-/home/mrhowever/Programming/Projects/Functions/Value.hh
-Value.tcc
-/home/mrhowever/Programming/Projects/Functions/Value.tcc
-
-/home/mrhowever/Programming/Projects/Functions/InvalidOperationException.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/InvalidOperationException.hh
 stdexcept
 -
-string
--
 
-/home/mrhowever/Programming/Projects/Functions/Logarithm.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Iterable.hh
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.hh
 ArithmeticObject.hh
-/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
-Typedef.hh
-/home/mrhowever/Programming/Projects/Functions/Typedef.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
 
-/home/mrhowever/Programming/Projects/Functions/LogarithmMap.hh
-map
--
-ArithmeticObject.hh
-/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
-Typedef.hh
-/home/mrhowever/Programming/Projects/Functions/Typedef.hh
-
-/home/mrhowever/Programming/Projects/Functions/LogarithmMap.tcc
-Value.hh
-/home/mrhowever/Programming/Projects/Functions/Value.hh
-Logarithm.hh
-/home/mrhowever/Programming/Projects/Functions/Logarithm.hh
-Variable.hh
-/home/mrhowever/Programming/Projects/Functions/Variable.hh
-ArithmeticObject.hh
-/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
-OperatorFactory.hh
-/home/mrhowever/Programming/Projects/Functions/OperatorFactory.hh
-Typedefs.hh
-/home/mrhowever/Programming/Projects/Functions/Typedefs.hh
-
-/home/mrhowever/Programming/Projects/Functions/Multiplication.hh
-LogarithmMap.hh
-/home/mrhowever/Programming/Projects/Functions/LogarithmMap.hh
-IncludeValue.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeValue.hh
-Multiplication.tcc
-/home/mrhowever/Programming/Projects/Functions/Multiplication.tcc
-
-/home/mrhowever/Programming/Projects/Functions/Multiplication.tcc
-Multiplication.hh
-/home/mrhowever/Programming/Projects/Functions/Multiplication.hh
-Logarithm.hh
-/home/mrhowever/Programming/Projects/Functions/Logarithm.hh
-IncludeDivision.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeDivision.hh
-Equality.hh
-/home/mrhowever/Programming/Projects/Functions/Equality.hh
-
-/home/mrhowever/Programming/Projects/Functions/OperatorFactory.hh
-ArithmeticObject.hh
-/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
-
-/home/mrhowever/Programming/Projects/Functions/Sum.hh
-string
--
-functional
--
-ArithmeticObject.hh
-/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
-Typedef.hh
-/home/mrhowever/Programming/Projects/Functions/Typedef.hh
-Typedefs.hh
-/home/mrhowever/Programming/Projects/Functions/Typedefs.hh
-LogarithmMap.hh
-/home/mrhowever/Programming/Projects/Functions/LogarithmMap.hh
-Value.hh
-/home/mrhowever/Programming/Projects/Functions/Value.hh
-Variable.hh
-/home/mrhowever/Programming/Projects/Functions/Variable.hh
-
-/home/mrhowever/Programming/Projects/Functions/Sum.tcc
-Multiplication.hh
-/home/mrhowever/Programming/Projects/Functions/Multiplication.hh
-IncludeDivision.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeDivision.hh
-Variable.hh
-/home/mrhowever/Programming/Projects/Functions/Variable.hh
-InvalidOperationException.hh
-/home/mrhowever/Programming/Projects/Functions/InvalidOperationException.hh
-Logarithm.hh
-/home/mrhowever/Programming/Projects/Functions/Logarithm.hh
-IncludeLogarithmMap.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeLogarithmMap.hh
-
-/home/mrhowever/Programming/Projects/Functions/Tests/DivisionTests.cpp
-gtest/gtest.h
-/home/mrhowever/Programming/Projects/Functions/Tests/gtest/gtest.h
-../IncludeSum.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeSum.hh
-../IncludeValue.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeValue.hh
-../Variable.hh
-/home/mrhowever/Programming/Projects/Functions/Variable.hh
-../IncludeDivision.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeDivision.hh
-../Multiplication.hh
-/home/mrhowever/Programming/Projects/Functions/Multiplication.hh
-../Logarithm.hh
-/home/mrhowever/Programming/Projects/Functions/Logarithm.hh
-../LogarithmMap.hh
-/home/mrhowever/Programming/Projects/Functions/LogarithmMap.hh
-chrono
--
-random
--
-
-/home/mrhowever/Programming/Projects/Functions/Tests/FunctionsTests.cpp
-gtest/gtest.h
-/home/mrhowever/Programming/Projects/Functions/Tests/gtest/gtest.h
-../IncludeSum.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeSum.hh
-../IncludeValue.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeValue.hh
-../Variable.hh
-/home/mrhowever/Programming/Projects/Functions/Variable.hh
-../IncludeDivision.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeDivision.hh
-../Multiplication.hh
-/home/mrhowever/Programming/Projects/Functions/Multiplication.hh
-../Logarithm.hh
-/home/mrhowever/Programming/Projects/Functions/Logarithm.hh
-../LogarithmMap.hh
-/home/mrhowever/Programming/Projects/Functions/LogarithmMap.hh
-chrono
--
-random
--
-
-/home/mrhowever/Programming/Projects/Functions/Tests/MultiplicationTests.cpp
-gtest/gtest.h
-/home/mrhowever/Programming/Projects/Functions/Tests/gtest/gtest.h
-../IncludeSum.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeSum.hh
-../IncludeValue.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeValue.hh
-../Variable.hh
-/home/mrhowever/Programming/Projects/Functions/Variable.hh
-../IncludeDivision.hh
-/home/mrhowever/Programming/Projects/Functions/IncludeDivision.hh
-../Multiplication.hh
-/home/mrhowever/Programming/Projects/Functions/Multiplication.hh
-../Logarithm.hh
-/home/mrhowever/Programming/Projects/Functions/Logarithm.hh
-../LogarithmMap.hh
-/home/mrhowever/Programming/Projects/Functions/LogarithmMap.hh
-chrono
--
-random
--
-
-/home/mrhowever/Programming/Projects/Functions/Typedef.hh
-memory
--
-list
--
-
-/home/mrhowever/Programming/Projects/Functions/Typedefs.hh
-memory
--
-list
--
-CustomTypeTraits.hh
--
-BasicOperations.hh
--
-variant
--
-ArithmeticObject.hh
-/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
-
-/home/mrhowever/Programming/Projects/Functions/Value.hh
-cstdint
--
-string
--
-list
--
-ArithmeticObject.hh
-/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
-
-/home/mrhowever/Programming/Projects/Functions/Value.tcc
-Typedefs.hh
-/home/mrhowever/Programming/Projects/Functions/Typedefs.hh
-InvalidOperationException.hh
-/home/mrhowever/Programming/Projects/Functions/InvalidOperationException.hh
-Sum.hh
-/home/mrhowever/Programming/Projects/Functions/Sum.hh
-Multiplication.hh
-/home/mrhowever/Programming/Projects/Functions/Multiplication.hh
-Division.hh
-/home/mrhowever/Programming/Projects/Functions/Division.hh
-
-/home/mrhowever/Programming/Projects/Functions/Variable.hh
-ArithmeticObject.hh
-/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.hh
-
-/home/mrhowever/Programming/Projects/Interfaces/include/Bounded.hh
-
-/home/mrhowever/Programming/Projects/Interfaces/include/Comparable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
 EqualityComparable.hh
-/home/mrhowever/Programming/Projects/Interfaces/include/EqualityComparable.hh
-
-/home/mrhowever/Programming/Projects/Interfaces/include/EqualityComparable.hh
-
-/home/mrhowever/Programming/Projects/TypeTraits/include/CustomTypeTraits.hh
-deque
--
-forward_list
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh
+Iterable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Iterable.hh
+Operator.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
+unordered_map
 -
 list
 -
-map
--
-queue
--
-set
--
-stack
--
+Value.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
+Variable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
+Multiplication.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
+ArithmeticObject.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
+Typedefs.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
 string
 -
-tuple
--
-type_traits
+Operator.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.tcc
+Operator.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
+Operator.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
+EqualityComparable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh
+SumIterator.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.hh
+Iterable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Iterable.hh
+map
 -
 unordered_map
 -
-unordered_set
+Sum.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.hh
+list
 -
-utility
--
-vector
--
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/DivisionTests.cpp
+gtest/gtest.h
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/gtest/gtest.h
+../Sum.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
+../Division.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
+../Multiplication.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
+../Value.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
+../Variable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
+../Logarithm.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.hh
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/FunctionsTests.cpp
+gtest/gtest.h
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/gtest/gtest.h
+../Sum.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
+../Division.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
+../Multiplication.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
+../Value.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
+../Variable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/MultiplicationTests.cpp
+gtest/gtest.h
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/gtest/gtest.h
+../Sum.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
+../Division.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
+../Multiplication.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
+../Value.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
+../Variable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
+../Logarithm.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.hh
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
 type_traits
 -
+limits
+-
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
+ArithmeticObject.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
+cstdint
+-
+Value.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.tcc
+InvalidOperationException.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/InvalidOperationException.hh
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
+ArithmeticObject.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
+Value.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
 

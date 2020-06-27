@@ -1,28 +1,28 @@
-//
-// Created by mrhowever on 30.01.2020.
-//
-
 #ifndef FUNCTIONS_VARIABLE_HH
 #define FUNCTIONS_VARIABLE_HH
 
 #include "ArithmeticObject.hh"
+#include "Value.hh"
 
 namespace MC::FN
 {
     class Variable : public ArithmeticObject {
         char _value;
-
+        Value _factor;
     public:
         explicit Variable(char);
+        Variable(const Value&, char);
 
-        void simplify() override;
         [[nodiscard]] Value evaluate(const Value&) const override;
-        [[nodiscard]] ArithmeticType getType() const override;
+        [[nodiscard]] constexpr ArithmeticType getType() const override;
         [[nodiscard]] std::string print() const override;
 
         [[nodiscard]] bool operator==(const Variable&) const;
         [[nodiscard]] bool operator!=(const Variable&) const;
         [[nodiscard]] bool operator<(const Variable&) const;
+
+        [[nodiscard]] char getSign() const;
+        [[nodiscard]] Value getFactor() const;
 
         friend struct std::hash<Variable>;
     };

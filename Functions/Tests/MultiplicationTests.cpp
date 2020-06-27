@@ -1,18 +1,10 @@
-//
-// Created by mrhowever on 20.10.19.
-//
-
 #include "gtest/gtest.h"
-#include "../IncludeSum.hh"
-#include "../IncludeValue.hh"
-#include "../Variable.hh"
-#include "../IncludeDivision.hh"
+#include "../Sum.hh"
+#include "../Division.hh"
 #include "../Multiplication.hh"
+#include "../Value.hh"
+#include "../Variable.hh"
 #include "../Logarithm.hh"
-#include "../LogarithmMap.hh"
-
-#include <chrono>
-#include <random>
 
 TEST(ConversionTestSuite, VarValMult)
 {
@@ -122,7 +114,7 @@ TEST(ConversionTestSuite, MultSumMult)
 {
     MC::FN::Variable var('x');
     MC::FN::Variable var2('y');
-    MC::FN::Multiplication mult = var * 5;
+    auto mult = var * 5;
     MC::FN::Sum sum = var2 + 7;
     auto result = mult * sum;
     ASSERT_EQ("x * (y + 7) * 5", result.print());
@@ -132,7 +124,7 @@ TEST(ConversionTestSuite, SumMultMult)
 {
     MC::FN::Variable var('x');
     MC::FN::Variable var2('y');
-    MC::FN::Multiplication mult = var * 5;
+    auto mult = var * 5;
     MC::FN::Sum sum = var2 + 7;
     auto result = sum * mult;
     ASSERT_EQ("x * (y + 7) * 5", result.print());
@@ -207,7 +199,7 @@ TEST(ConversionTestSuite, DivMultMult)
     MC::FN::Variable var('x');
     MC::FN::Variable var2('y');
     MC::FN::Division div = var / 5;
-    MC::FN::Multiplication mult = var2 * 7;
+    auto mult = var2 * 7;
     auto result = div * mult;
     ASSERT_EQ("y * (x / 5) * 7", result.print());
 }
@@ -217,7 +209,7 @@ TEST(ConversionTestSuite, MultDivMult)
     MC::FN::Variable var('x');
     MC::FN::Variable var2('y');
     MC::FN::Division div = var / 5;
-    MC::FN::Multiplication mult = var2 * 7;
+    auto mult = var2 * 7;
     auto result = mult * div;
     ASSERT_EQ("y * (x / 5) * 7", result.print());
 }

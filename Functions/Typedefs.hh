@@ -5,16 +5,18 @@
 #ifndef FUNCTIONS_TYPEDEFS_HH
 #define FUNCTIONS_TYPEDEFS_HH
 
-#include <memory>
-#include <list>
-#include <CustomTypeTraits.hh>
-#include <BasicOperations.hh>
-#include <variant>
-#include "ArithmeticObject.hh"
+#include <type_traits>
+#include <limits>
 
 namespace MC::FN
 {
     class ArithmeticObject;
+    class Sum;
+    class Multiplication;
+    class Division;
+    class Variable;
+    class Logarithm;
+    class Value;
 
     template<bool B, class T = void> using EnableIf = std::enable_if_t<B,int>;
 
@@ -66,27 +68,33 @@ namespace MC::FN
 
     template<typename T> inline constexpr bool IsArithmeticV = std::is_base_of_v<ArithmeticObject,T>;
 
+    template<typename T>
+    concept Arithmetic = std::is_base_of_v<ArithmeticObject,T>;
+
+    template<typename T>
+    concept Primitive = std::is_arithmetic_v<T>;
+
     template<typename T> using EnableIfPrimitive = EnableIf<IsPrimitiveV<T>>;
     template<typename T> using EnableIfIsArithmetic = EnableIf<IsArithmeticV<T>>;
     template<typename T, typename P> using EnableIfAreArithmetic = EnableIf<IsArithmeticV<T> and IsArithmeticV<P>>;
     template<typename T, typename P> using EnableIfAreArithmeticOrPtr = EnableIf<(IsArithmeticV<T> or IsArithmeticV<std::remove_pointer<T>::type()>)
                                                     and (IsArithmeticV<P> or IsArithmeticV<std::remove_pointer<P>::type()>)>;
 
-    template<typename T> T Max = std::numeric_limits<T>::max();
-    template<typename T> T Min = std::numeric_limits<T>::min();
-    template<typename ...Types> using Range = MC::BO::Range<Types...>;
-
-    static const Range<float,float>             floatRange     (Min<float>,       Max<float>);
-    static const Range<double,double>           doubleRange    (Min<double>,      Max<double>);
-    static const Range<long double,long double> longDoubleRange(Min<long double>, Max<long double>);
-    static const Range<int8_t,int8_t>           int8Range      (Min<int8_t>,      Max<int8_t>);
-    static const Range<int16_t,int16_t>         int16Range     (Min<int16_t>,     Max<int16_t>);
-    static const Range<int32_t,int32_t>         int32Range     (Min<int32_t>,     Max<int32_t>);
-    static const Range<int64_t,int64_t>         int64Range     (Min<int64_t>,     Max<int64_t>);
-    static const Range<uint8_t,uint8_t>         uint8Range     (Min<uint8_t>,     Max<uint8_t>);
-    static const Range<uint16_t,uint16_t>       uint16Range    (Min<uint16_t>,    Max<uint16_t>);
-    static const Range<uint32_t,uint32_t>       uint32Range    (Min<uint32_t>,    Max<uint32_t>);
-    static const Range<uint64_t,uint64_t>       uint64Range    (Min<uint64_t>,    Max<uint64_t>);
+//    template<typename T> T Max = std::numeric_limits<T>::max();
+//    template<typename T> T Min = std::numeric_limits<T>::min();
+//    template<typename ...Types> using Range = MC::BO::Range<Types...>;
+//
+//    static const Range<float,float>             floatRange     (Min<float>,       Max<float>);
+//    static const Range<double,double>           doubleRange    (Min<double>,      Max<double>);
+//    static const Range<long double,long double> longDoubleRange(Min<long double>, Max<long double>);
+//    static const Range<int8_t,int8_t>           int8Range      (Min<int8_t>,      Max<int8_t>);
+//    static const Range<int16_t,int16_t>         int16Range     (Min<int16_t>,     Max<int16_t>);
+//    static const Range<int32_t,int32_t>         int32Range     (Min<int32_t>,     Max<int32_t>);
+//    static const Range<int64_t,int64_t>         int64Range     (Min<int64_t>,     Max<int64_t>);
+//    static const Range<uint8_t,uint8_t>         uint8Range     (Min<uint8_t>,     Max<uint8_t>);
+//    static const Range<uint16_t,uint16_t>       uint16Range    (Min<uint16_t>,    Max<uint16_t>);
+//    static const Range<uint32_t,uint32_t>       uint32Range    (Min<uint32_t>,    Max<uint32_t>);
+//    static const Range<uint64_t,uint64_t>       uint64Range    (Min<uint64_t>,    Max<uint64_t>);
 }
 
 #endif //FUNCTIONS_TYPEDEFS_HH

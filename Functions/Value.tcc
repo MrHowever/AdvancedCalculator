@@ -1,15 +1,7 @@
-//
-// Created by mrhowever on 15.02.2020.
-//
-
 #ifndef FUNCTIONS_VALUE_TCC
 #define FUNCTIONS_VALUE_TCC
 
-#include "Typedefs.hh"
 #include "InvalidOperationException.hh"
-#include "Sum.hh"
-#include "Multiplication.hh"
-#include "Division.hh"
 
 #define TEMPLATE_OP(OP)                                 \
     template<typename T>                                \

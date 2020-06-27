@@ -4,23 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mrhowever/Programming/Projects/Functions/ArithmeticObject.cpp" "/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles/Functions.dir/ArithmeticObject.cpp.o"
-  "/home/mrhowever/Programming/Projects/Functions/Division.cpp" "/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Division.cpp.o"
-  "/home/mrhowever/Programming/Projects/Functions/Equality.cpp" "/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Equality.cpp.o"
-  "/home/mrhowever/Programming/Projects/Functions/Logarithm.cpp" "/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Logarithm.cpp.o"
-  "/home/mrhowever/Programming/Projects/Functions/Multiplication.cpp" "/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Multiplication.cpp.o"
-  "/home/mrhowever/Programming/Projects/Functions/Sum.cpp" "/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Sum.cpp.o"
-  "/home/mrhowever/Programming/Projects/Functions/SumSimplificationRoutines.cpp" "/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles/Functions.dir/SumSimplificationRoutines.cpp.o"
-  "/home/mrhowever/Programming/Projects/Functions/Value.cpp" "/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Value.cpp.o"
-  "/home/mrhowever/Programming/Projects/Functions/Variable.cpp" "/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Variable.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/Functions.dir/ArithmeticObject.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Division.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Equality.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Equality.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/Functions.dir/EqualityComparable.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Logarithm.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Multiplication.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Operator.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Sum.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/Functions.dir/SumIterator.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Value.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles/Functions.dir/Variable.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/mrhowever/Programming/Projects/TypeTraits/include"
-  "/home/mrhowever/Programming/Projects/BasicOperations/include"
-  "/home/mrhowever/Programming/Projects/Interfaces/include"
   )
 
 # Targets to which this target links.

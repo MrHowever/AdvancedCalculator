@@ -74,7 +74,7 @@ TYPED_TEST(FooTest, DoesBlah) {
   // prefix.
   n += TestFixture::shared_;
 
-  // To refer to typedefs in the fixture, __add the "typename
+  // To refer to typedefs in the fixture, __op the "typename
   // TestFixture::" prefix.
   typename TestFixture::List values;
   values.push_back(n);

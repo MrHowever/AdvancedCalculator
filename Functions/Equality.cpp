@@ -1,21 +1,12 @@
-#include "Equality.hh"
-#include "IncludeDivision.hh"
-#include "IncludeSum.hh"
-#include "Variable.hh"
-#include "Logarithm.hh"
 #include "ArithmeticObject.hh"
+#include "Equality.hh"
 
 namespace MC::FN
 {
-    ArithmeticType Equality::getType() const
-    {
-        return EQ;
-    }
-
-    void Equality::simplify()
-    {
-
-    }
+//    constexpr ArithmeticType Equality::getType() const
+//    {
+//        return EQ;
+//    }
 
     //TODO implicit int->Value, bool->Value
     Value Equality::evaluate(const Value& val) const
@@ -39,5 +30,35 @@ namespace MC::FN
     std::string Equality::print() const
     {
         return _first->print() + " == "  + _second->print();
+    }
+
+    void Equality::__op(const Division& o)
+    {
+        __genOp(o);
+    }
+
+    void Equality::__op(const Sum& o)
+    {
+        __genOp(o);
+    }
+
+    void Equality::__op(const Multiplication& o)
+    {
+        __genOp(o);
+    }
+
+    void Equality::__op(const Value& o)
+    {
+        __genOp(o);
+    }
+
+    void Equality::__op(const Variable& o)
+    {
+        __genOp(o);
+    }
+
+    void Equality::__op(const Logarithm& o)
+    {
+        __genOp(o);
     }
 }

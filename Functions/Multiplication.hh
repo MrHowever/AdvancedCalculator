@@ -1,54 +1,65 @@
 #ifndef FUNCTIONS_MULTIPLICATION_HH
 #define FUNCTIONS_MULTIPLICATION_HH
 
-#include "LogarithmMap.hh"
-#include "IncludeValue.hh"
+#include "EqualityComparable.hh"
+#include "Iterable.hh"
+#include "Operator.hh"
+#include <unordered_map>
+#include <list>
+#include "Value.hh"
+#include "Variable.hh"
 
 namespace MC::FN
 {
-    typedef LogarithmMap<LogarithmList> LogarithmMultiplicationMap;
     class MultiplicationIterator;
 
-    class Multiplication : public ArithmeticObject {
+    class Multiplication : public EqualityComparable<Multiplication>,
+                            public Iterable<MultiplicationIterator>, public Operator {
+        class Base {
+            Sum* _sum;
+            Division* _div;
+            std::unordered_map<const ArithmeticObject*, std::list<Logarithm> > _logs;
+            std::unordered_map<Variable,Value> _vars;     // TODO powers
 
-        Sum* _sum;
-        Division* _div;
-        std::unordered_map<const ArithmeticObject*, std::list<Logarithm> > _logs;
-        std::unordered_map<Variable,Value> _vars;     // TODO powers
+            Base();
+
+            bool operator==(const Base&) const;
+            template<typename T> bool is() const;
+
+            friend Multiplication;
+            friend MultiplicationIterator;
+            friend Sum;
+        } _base;
+
         Value _value;
 
         Multiplication();
 
-        template<typename T> void __mult(const T&);
-        template<typename T, typename = EnableIfIsArithmetic<T>> void invokeOperation(const T&);
-        template<typename T, typename = EnableIfIsArithmetic<T> > void invokeOperation(const T*);
+        void __op(const Sum&) override;
+        void __op(const Multiplication&) override;
+        void __op(const Division&) override;
+        void __op(const Value&) override;
+        void __op(const Variable&) override;
+        void __op(const Logarithm&) override;
+
+        bool erase(const ArithmeticObject*) override;
+
     public:
         template<typename T, typename P> Multiplication(const T&, const P&);
-        Multiplication(const Multiplication&);
 
-        [[nodiscard]] bool operator==(const Multiplication&) const;
-        [[nodiscard]] bool operator!=(const Multiplication&) const;
+        [[nodiscard]] bool operator==(const Multiplication&) const override;
+        [[nodiscard]] bool operator!=(const Multiplication&) const override;
 
-        void simplify() override;
         [[nodiscard]] Value evaluate(const Value&) const override;
         [[nodiscard]] std::string print() const override;
-        [[nodiscard]] ArithmeticType getType() const override;
+        [[nodiscard]] constexpr ArithmeticType getType() const override { return MUL; }
 
-        [[nodiscard]] MultiplicationIterator begin() const;
-        [[nodiscard]] MultiplicationIterator end() const;
-
-        void erase(const MultiplicationIterator&);
-        bool erase(const ArithmeticObject*);
-
-        static bool sameBase(const Multiplication&, const Multiplication&);
-        Value getValue() const;
-        bool isVarMultiple() const;
-        bool isSumMultiple() const;
-        bool isDivMultiple() const;
-        bool isLogMultiple() const;
+        [[nodiscard]] MultiplicationIterator begin() const override;
+        [[nodiscard]] MultiplicationIterator end() const override;
 
         friend class Sum;
         friend class MultiplicationIterator;
+        friend class Division;
     };
 
     class MultiplicationIterator {
@@ -66,22 +77,28 @@ namespace MC::FN
         static MultiplicationIterator end(const Multiplication&);
 
         MultiplicationIterator& operator++();
-        const Operand* operator*();
+        const ArithmeticObject* operator*();
         bool operator!=(const MultiplicationIterator&);
 
         friend class Multiplication;
     };
 
-    template<typename T, typename P, typename = EnableIfAreArithmetic<T,P>>
+    template<Arithmetic T, Arithmetic P>
     [[nodiscard]] Multiplication operator*(const T&, const P&);
 
-    template<typename T, typename P, typename = EnableIfIsArithmetic<T>, typename = EnableIfPrimitive<P>>
+    template<Arithmetic T, Primitive P>
     [[nodiscard]] Multiplication operator*(const T&, const P&);
 
-    template<typename T, typename P, typename = EnableIfIsArithmetic<T>, typename = EnableIfPrimitive<P>>
+    template<Arithmetic T, Primitive P>
     [[nodiscard]] Multiplication operator*(const P&, const T&);
 
-    Division operator*(const Division&, const Division&);
+    [[nodiscard]] Division operator*(const Division&, const Division&);
+    [[nodiscard]] Variable operator*(const Variable&, const Value&);
+    [[nodiscard]] Variable operator*(const Value&, const Variable&);
+    template<Primitive P>
+    [[nodiscard]] Variable operator*(const Variable&, const P&);
+    template<Primitive P>
+    [[nodiscard]] Variable operator*(const Value&, const P&);
 }
 
 #include "Multiplication.tcc"

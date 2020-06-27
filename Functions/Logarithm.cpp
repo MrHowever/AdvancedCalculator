@@ -1,10 +1,4 @@
-//
-// Created by mrhowever on 15.02.2020.
-//
-
 #include "Logarithm.hh"
-#include "Multiplication.hh"
-#include "ArithmeticObject.hh"
 #include "OperatorFactory.hh"
 
 namespace MC::FN
@@ -31,15 +25,10 @@ namespace MC::FN
         return _base;
     }
 
-    ArithmeticType Logarithm::getType() const
-    {
-        return LOG;
-    }
-
-    void Logarithm::simplify()
-    {
-
-    }
+//    constexpr ArithmeticType Logarithm::getType() const
+//    {
+//        return LOG;
+//    }
 
     Value Logarithm::evaluate(const Value& val) const
     {

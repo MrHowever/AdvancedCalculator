@@ -1,8 +1,6 @@
-#include "IncludeDivision.hh"
-#include "OperatorFactory.hh"
-#include "OperatorFactory.tcc"
-#include "Variable.hh"
 #include "Division.hh"
+#include "Multiplication.hh"
+#include "OperatorFactory.hh"
 
 namespace MC::FN
 {
@@ -10,10 +8,10 @@ namespace MC::FN
     {
     }
 
-    ArithmeticType Division::getType() const
-    {
-        return DIV;
-    }
+//    constexpr ArithmeticType Division::getType() const
+//    {
+//        return DIV;
+//    }
 
     void Division::simplify()
     {
@@ -26,7 +24,7 @@ namespace MC::FN
                     if(multDenom.erase(*nomIt)) {
                         auto tmp = nomIt;
                         ++nomIt;
-                        multNom.erase(tmp);
+                        multNom.erase(*tmp);
                     }
                 }
             }
@@ -102,8 +100,7 @@ namespace MC::FN
 //        if(_denom) delete(_denom);
     }
 
-    template<>
-    void Division::_div(const Division& o)
+    void Division::__op(const Division& o)
     {
         if(!_nom && !_denom) {
             *this = o;
@@ -135,5 +132,30 @@ namespace MC::FN
 
             simplify();
         }
+    }
+
+    void Division::__op(const Sum& o)
+    {
+        __genOp(o);
+    }
+
+    void Division::__op(const Multiplication& o)
+    {
+        __genOp(o);
+    }
+
+    void Division::__op(const Value& o)
+    {
+        __genOp(o);
+    }
+
+    void Division::__op(const Variable& o)
+    {
+        __genOp(o);
+    }
+
+    void Division::__op(const Logarithm& o)
+    {
+        __genOp(o);
     }
 }

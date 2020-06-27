@@ -3,16 +3,12 @@
 //
 
 #include "gtest/gtest.h"
-#include "../IncludeSum.hh"
-#include "../IncludeValue.hh"
-#include "../Variable.hh"
-#include "../IncludeDivision.hh"
+#include "../Sum.hh"
+#include "../Division.hh"
 #include "../Multiplication.hh"
+#include "../Value.hh"
+#include "../Variable.hh"
 #include "../Logarithm.hh"
-#include "../LogarithmMap.hh"
-
-#include <chrono>
-#include <random>
 
 TEST(ConversionTestSuite, VarValDiv)
 {
@@ -123,7 +119,7 @@ TEST(ConversionTestSuite, MultSumDiv)
 {
     MC::FN::Variable var('x');
     MC::FN::Variable var2('y');
-    MC::FN::Multiplication mult = var * 5;
+    MC::FN::Variable mult = var * 5;
     MC::FN::Sum sum = var2 + 7;
     auto result = mult / sum;
     ASSERT_EQ("(5x) / (y + 7)", result.print());
@@ -133,7 +129,7 @@ TEST(ConversionTestSuite, SumMultDiv)
 {
     MC::FN::Variable var('x');
     MC::FN::Variable var2('y');
-    MC::FN::Multiplication mult = var * 5;
+    MC::FN::Variable mult = var * 5;
     MC::FN::Sum sum = var2 + 7;
     auto result = sum / mult;
     ASSERT_EQ("(y + 7) / (5x)", result.print());
@@ -163,7 +159,7 @@ TEST(ConversionTestSuite, VarMultDiv)
 {
     MC::FN::Variable var('x');
     MC::FN::Variable var2('y');
-    MC::FN::Multiplication mult = var2 * 5;
+    MC::FN::Variable mult = var2 * 5;
     auto result = var / mult;
     ASSERT_EQ("x / (5y)", result.print());
 }
@@ -172,7 +168,7 @@ TEST(ConversionTestSuite, MultVarDiv)
 {
     MC::FN::Variable var('x');
     MC::FN::Variable var2('y');
-    MC::FN::Multiplication mult = var2 * 5;
+    MC::FN::Variable mult = var2 * 5;
     auto result = mult / var;
     ASSERT_EQ("(5y) / x", result.print());
 }
@@ -180,7 +176,7 @@ TEST(ConversionTestSuite, MultVarDiv)
 TEST(ConversionTestSuite, ValMultDiv)
 {
     MC::FN::Variable var2('y');
-    MC::FN::Multiplication mult = var2 * 5;
+    MC::FN::Variable mult = var2 * 5;
     auto result = 5 / mult;
     ASSERT_EQ("1 / (y)", result.print());
 }
@@ -188,7 +184,7 @@ TEST(ConversionTestSuite, ValMultDiv)
 TEST(ConversionTestSuite, MultValDiv)
 {
     MC::FN::Variable var2('y');
-    MC::FN::Multiplication mult = var2 * 5;
+    MC::FN::Variable mult = var2 * 5;
     auto result = mult / 5;
     ASSERT_EQ("(y) / 1 jaktoskrocic", result.print());
 }
@@ -197,8 +193,8 @@ TEST(ConversionTestSuite, MultMultDiv)
 {
     MC::FN::Variable var('x');
     MC::FN::Variable var2('y');
-    MC::FN::Multiplication mult = var * 5;
-    MC::FN::Multiplication mult2 = var2 * 7;
+    MC::FN::Variable mult = var * 5;
+    MC::FN::Variable mult2 = var2 * 7;
     auto result = mult / mult2;
     ASSERT_EQ("(5x) / (7y)", result.print());
 }
@@ -208,7 +204,7 @@ TEST(ConversionTestSuite, DivMultDiv)
     MC::FN::Variable var('x');
     MC::FN::Variable var2('y');
     MC::FN::Division div = var / 5;
-    MC::FN::Multiplication mult = var2 * 7;
+    MC::FN::Variable mult = var2 * 7;
     auto result = div / mult;
     ASSERT_EQ("x / (35y)", result.print());
 }
@@ -218,7 +214,7 @@ TEST(ConversionTestSuite, MultDivDiv)
     MC::FN::Variable var('x');
     MC::FN::Variable var2('y');
     MC::FN::Division div = var / 5;
-    MC::FN::Multiplication mult = var2 * 7;
+    MC::FN::Variable mult = var2 * 7;
     auto result = mult / div;
     ASSERT_EQ("(35y) / x", result.print());
 }

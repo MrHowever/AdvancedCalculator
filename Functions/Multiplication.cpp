@@ -1,53 +1,41 @@
-//
-// Created by mrhowever on 15.02.2020.
-//
-
-#include "IncludeLogarithmMap.hh"
-#include "Variable.hh"
-#include "IncludeArithmeticObject.hh"
-#include "OperatorFactory.hh"
-#include "OperatorFactory.tcc"
 #include "Multiplication.hh"
-#include <iostream>
+#include "Sum.hh"
+#include "Division.hh"
+#include "Logarithm.hh"
+#include "Equality.hh"
+
+#include <algorithm>
 
 namespace MC::FN
 {
-    Multiplication::Multiplication() : _sum(nullptr), _div(nullptr), _value(1) {}
-
-    Multiplication::Multiplication(const Multiplication& m) : Multiplication()
+    Multiplication::Base::Base() : _sum(nullptr), _div(nullptr)
     {
-        _sum = m._sum ? dynamic_cast<Sum*>(OperatorFactory::copy(m._sum)) : nullptr;
-        _div = m._div ? dynamic_cast<Division*>(OperatorFactory::copy(m._div)) : nullptr;
-        _value = m._value;
-        _logs = m._logs;
-        _vars = m._vars;
+        
     }
+    
+    Multiplication::Multiplication() : _base(), _value(1) {}
 
-    ArithmeticType Multiplication::getType() const
-    {
-        return MUL;
-    }
-
-    void Multiplication::simplify()
-    {
-
-    }
+//    constexpr ArithmeticType Multiplication::getType() const
+//    {
+//        return MUL;
+//    }
 
     Value Multiplication::evaluate(const Value& value) const
     {
         Value result(1);
+        Variable var('x');
 
         result *= _value;
-        if(_sum) result *= _sum->evaluate(value);
-        if(_div) result *= _div->evaluate(value);
+        if(_base._sum) result *= _base._sum->evaluate(value);
+        if(_base._div) result *= _base._div->evaluate(value);
 
-        std::for_each(_logs.begin(), _logs.end(), [&result](auto& elem) {
+        std::for_each(_base._logs.begin(), _base._logs.end(), [&result](auto& elem) {
             std::for_each(elem.second.begin(),elem.second.end(), [&result](auto& subElem){
                 result *= subElem.evaluate(result);
             });
         });
 
-        std::for_each(_vars.begin(), _vars.end(), [&result](auto& elem) {
+        std::for_each(_base._vars.begin(), _base._vars.end(), [&result](auto& elem) {
             result *= elem.first.evaluate(result) /*TODO ^ elem.second*/;
         });
 
@@ -58,11 +46,11 @@ namespace MC::FN
     {
         std::string result;
 
-        if(!_sum && !_div && _logs.empty() && !_vars.empty()) {
+        if(!_base._sum && !_base._div && _base._logs.empty() && !_base._vars.empty()) {
             if(_value != 1)
                 result += _value.print();
 
-            for(auto& elem : _vars) {
+            for(auto& elem : _base._vars) {
                 if(elem.second != 1) {
                     result += "(" + elem.first.print() + "^" + elem.second.print() + ")";
                 }
@@ -75,10 +63,10 @@ namespace MC::FN
         }
 
         //TODO this is a pair instead of ArithmeticObject
-//        __printList(result, _logs, '*');
-        //__printList(result, _vars, '*');
+//        __printList(result, _base._logs, '*');
+        //__printList(result, _base._vars, '*');
 
-        for(auto& elem : _vars) {
+        for(auto& elem : _base._vars) {
             if(!result.empty())
                 result += " * ";
 
@@ -89,19 +77,19 @@ namespace MC::FN
             }
         }
 
-        if (_sum) {
+        if (_base._sum) {
             if(result.empty())
-                result += "(" + _sum->print() + ")";
+                result += "(" + _base._sum->print() + ")";
             else {
-                result += " * (" + _sum->print() + ")";
+                result += " * (" + _base._sum->print() + ")";
             }
         }
 
-        if (_div) {
+        if (_base._div) {
             if(result.empty())
-                result += "(" + _div->print() + ")";
+                result += "(" + _base._div->print() + ")";
             else {
-                result += " * (" + _div->print() + ")";
+                result += " * (" + _base._div->print() + ")";
             }
         }
 
@@ -121,18 +109,43 @@ namespace MC::FN
 
         return result;
     }
-
-    bool Multiplication::sameBase(const Multiplication& first, const Multiplication& second)
+    
+    bool Multiplication::Base::operator==(const Base& second) const
     {
-        return containersEqual(first._logs, second._logs) &&
-            first._sum != nullptr and second._sum != nullptr ? first._sum->operator==(*second._sum) : first._sum == second._sum &&
-            first._div != nullptr and second._div != nullptr ? first._div->operator==(*second._div) : first._div == second._div &&
-            containersEqual(first._vars, second._vars);
+        //TODO wtf
+        return /*_logs == second._logs &&*/
+               _sum != nullptr and second._sum != nullptr and *_sum == *second._sum &&
+               _div != nullptr and second._div != nullptr and *_div == *second._div &&
+               _vars == second._vars;
     }
 
-    bool Multiplication::operator==(const Multiplication& mul) const
+    template<>
+    bool Multiplication::Base::is<Sum>() const
     {
-        return Multiplication::sameBase(*this,mul) && _value == mul._value;
+        return _logs.empty() and _vars.empty() and !_div and _sum;
+    }
+
+    template<>
+    bool Multiplication::Base::is<Division>() const
+    {
+        return _logs.empty() and _vars.empty() and !_sum and _div;
+    }
+
+    template<>
+    bool Multiplication::Base::is<Logarithm>() const
+    {
+        return _vars.empty() and !_sum and !_div and _logs.size() == 1 and _logs.begin()->second.size() == 1;
+    }
+
+    template<>
+    bool Multiplication::Base::is<Variable>() const
+    {
+        return _logs.empty() and !_sum and !_div and _vars.size() == 1;
+    }
+
+    bool Multiplication::operator==(const Multiplication& second) const
+    {
+        return  _base == second._base && _value == second._value;
     }
 
     bool Multiplication::operator!=(const Multiplication& o) const
@@ -140,95 +153,84 @@ namespace MC::FN
         return !(*this == o);
     }
 
-    Value Multiplication::getValue() const
+    void Multiplication::__op(const Division& o)
     {
-        return _value;
-    }
-
-    template<>
-    void Multiplication::__mult(const Division& o)
-    {
-        if (!_div) {
-            _div = new Division(o);
+        if (!_base._div) {
+            _base._div = new Division(o);
         }
         else {
-            if (*_div == o.reverse()) {
-                delete(_div);
-                _div = nullptr;
+            if (*_base._div == o.reverse()) {
+                delete(_base._div);
+                _base._div = nullptr;
             }
             else {
-                safeAssign(&_div, new Division(*_div * o));
+                safeAssign(&_base._div, new Division(*_base._div * o));
             }
         }
     }
 
-    template<>
-    void Multiplication::__mult(const Logarithm& o)
+    void Multiplication::__op(const Logarithm& o)
     {
         //TODO wtf?
-        if(_div)
-            safeAssign(&_div, new Division(*_div / o));
+        if(_base._div)
+            safeAssign(&_base._div, new Division(*_base._div / o));
         else
-            _logs[o.getBase()].push_back(o);
+            _base._logs[o.getBase()].push_back(o);
     }
 
-    template<>
-    void Multiplication::__mult(const Variable& o)
+    void Multiplication::__op(const Variable& o)
     {
-        _vars.find(o) != _vars.end() ? _vars[o] = 1 : _vars[o]++;
+        _base._vars.find(o) != _base._vars.end() ? _base._vars[o] = 1 : _base._vars[o]++;
     }
 
-    template<>
-    void Multiplication::__mult(const Value& o)
+    void Multiplication::__op(const Value& o)
     {
         _value *= o;
     }
 
-    template<>
-    void Multiplication::__mult(const Sum& o)
+    void Multiplication::__op(const Sum& o)
     {
-        if(!_sum) {
-            safeAssign(&_sum, new Sum(o));
+        if(!_base._sum) {
+            safeAssign(&_base._sum, new Sum(o));
         }
         else {
             Sum newSum(Value(0),Value(0));
 
-            for(const auto& firstElem : *_sum) {
+            for(const auto& firstElem : *_base._sum) {
                 for(const auto& secondElem : o) {
                     Multiplication mult(firstElem,secondElem);
                     newSum = newSum + mult;
                 }
             }
 
-            safeAssign(&_sum,new Sum(newSum));
+            safeAssign(&_base._sum,new Sum(newSum));
         }
     }
 
-    template<>
-    void Multiplication::__mult(const Multiplication& o)
+    void Multiplication::__op(const Multiplication& o)
     {
-        if(o._div) {
-            safeAssign(&_div, new Division(*_div * *o._div));
+        if(o._base._div) {
+            safeAssign(&_base._div, new Division(*_base._div * *o._base._div));
         }
 
         //TODO sum*sum=sum
-        if(o._sum) {
-            Multiplication sumMult = *_sum * *o._sum;
-            _sum = nullptr;
+        if(o._base._sum) {
+            Multiplication sumMult = *_base._sum * *o._base._sum;
+            _base._sum = nullptr;
             invokeOperation(sumMult);
         }
 
         _value *= o._value;
 
-        std::for_each(o._vars.begin(), o._vars.end(), [this](auto& e){
+        std::for_each(o._base._vars.begin(), o._base._vars.end(), [this](auto& e){
             for(int i = 0; e.second > i; i++) {
-                __mult(e.first);
+                __op(e.first);
             }
         });
 
-        std::for_each(o._logs.begin(),o._logs.end(), [this](auto& e) {
+        std::for_each(o._base._logs.begin(),o._base._logs.end(), [this](auto& e) {
             std::for_each(e.second.begin(), e.second.end(), [this](auto& elem) {
-                __mult(elem);
+                __op(elem);
             });
         });
     }
@@ -236,26 +238,6 @@ namespace MC::FN
     Division operator*(const Division& first, const Division& second)
     {
         return Multiplication(first.getNom(),second.getNom()) / Multiplication(first.getDenom(),second.getDenom());
-    }
-
-    bool Multiplication::isVarMultiple() const
-    {
-        return _sum == nullptr && _div == nullptr && _logs.empty() && _value != 1 && _vars.size() == 1;
-    }
-
-    bool Multiplication::isSumMultiple() const
-    {
-        return _sum != nullptr && _div == nullptr && _logs.empty() && _value != 1 && _vars.empty();
-    }
-
-    bool Multiplication::isDivMultiple() const
-    {
-        return _sum == nullptr && _div != nullptr && _logs.empty() && _value != 1 && _vars.empty();
-    }
-
-    bool Multiplication::isLogMultiple() const
-    {
-        return _sum == nullptr && _div == nullptr && _logs.size() == 1 && _logs.begin()->second.size() == 1 && _value != 1 && _vars.empty();
     }
 
     MultiplicationIterator Multiplication::begin() const
@@ -272,24 +254,20 @@ namespace MC::FN
     {
         for(auto it = begin(); it != end(); ++it) {
             if(Equality(*it,oPtr).evaluate(Value(0))) {
-                erase(it);
+                switch(it._currentStructure)
+                {
+                    case 0: _base._sum = nullptr; break;
+                    case 1: _base._div = nullptr; break;
+                    case 2: _base._logs.at(it._logsIt->first).erase(it._logsListIt); break;
+                    case 3: _base._vars.erase(it._varsIt); break;
+                    case 4: _value = 1; break;
+                }
+
                 return true;
             }
         }
 
         return false;
-    }
-
-    void Multiplication::erase(const MultiplicationIterator& it)
-    {
-        switch(it._currentStructure)
-        {
-            case 0: _sum = nullptr; break;
-            case 1: _div = nullptr; break;
-            case 2: _logs.at(it._logsIt->first).erase(it._logsListIt); break;
-            case 3: _vars.erase(it._varsIt); break;
-            case 4: _value = 1; break;
-        }
     }
 
     bool MultiplicationIterator::_currentItEnd()
@@ -298,8 +276,8 @@ namespace MC::FN
         {
             case 0:
             case 1: return true;
-            case 2: return _logsIt == _mult._logs.end();
-            case 3: return _varsIt == _mult._vars.end();
+            case 2: return _logsIt == _mult._base._logs.end();
+            case 3: return _varsIt == _mult._base._vars.end();
             case 4: return true;
         }
 
@@ -310,10 +288,10 @@ namespace MC::FN
     {
         switch(_currentStructure)
         {
-            case 0: return _mult._sum != nullptr;
-            case 1: return _mult._div != nullptr;
-            case 2: return _mult._logs.size();
-            case 3: return _mult._vars.size();
+            case 0: return _mult._base._sum != nullptr;
+            case 1: return _mult._base._div != nullptr;
+            case 2: return _mult._base._logs.size();
+            case 3: return _mult._base._vars.size();
             case 4: return 1;
             default: return 0;
         }
@@ -339,14 +317,14 @@ namespace MC::FN
     MultiplicationIterator::MultiplicationIterator(const Multiplication& mult) :
                                                         _mult(mult),
                                                         _currentStructure(0),
-                                                        _varsIt(mult._vars.begin()),
-                                                        _logsIt(mult._logs.begin()),
-                                                        _logsListIt(mult._logs.empty() ?
+                                                        _varsIt(mult._base._vars.begin()),
+                                                        _logsIt(mult._base._logs.begin()),
+                                                        _logsListIt(mult._base._logs.empty() ?
                                                                     std::list<Logarithm>::const_iterator() :
-                                                                    mult._logs.begin()->second.begin())
+                                                                    mult._base._logs.begin()->second.begin())
     {
         // Advance iterator to first elem if sum doesnt exist so first usage wont return null
-        if(mult._sum == nullptr) {
+        if(mult._base._sum == nullptr) {
             operator++();
         }
     }
@@ -356,8 +334,8 @@ namespace MC::FN
         MultiplicationIterator endIt(mult);
 
         endIt._currentStructure = 5;
-        endIt._varsIt = mult._vars.end();
-        endIt._logsIt = mult._logs.end();
+        endIt._varsIt = mult._base._vars.end();
+        endIt._logsIt = mult._base._logs.end();
 
         return endIt;
     }
@@ -373,15 +351,15 @@ namespace MC::FN
         return *this;
     }
 
-    const Operand* MultiplicationIterator::operator*()
+    const ArithmeticObject* MultiplicationIterator::operator*()
     {
         switch(_currentStructure)
         {
             case 0:
-                return _mult._sum;
+                return _mult._base._sum;
 
             case 1:
-                return _mult._div;
+                return _mult._base._div;
 
             case 2://TODO write non leaking version
                 return new Multiplication(_logsIt->first, &*_logsListIt);
@@ -391,6 +369,8 @@ namespace MC::FN
 
             case 4:
                 return &_mult._value;
+
+            default: throw InvalidOperationException("Type not handled");
         }
     }
 
@@ -400,5 +380,15 @@ namespace MC::FN
             return true;
 
         return _varsIt != it._varsIt or _logsIt != it._logsIt or _logsListIt != it._logsListIt;
+    }
+
+    Variable operator*(const Variable& var, const Value& val)
+    {
+        return Variable(val,var.getSign());
+    }
+
+    Variable operator*(const Value& val, const Variable& var)
+    {
+        return Variable(val,var.getSign());
     }
 }

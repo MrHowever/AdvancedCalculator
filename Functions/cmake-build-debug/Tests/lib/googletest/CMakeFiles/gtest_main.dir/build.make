@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mrhowever/Programming/Projects/Functions
+CMAKE_SOURCE_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mrhowever/Programming/Projects/Functions/cmake-build-debug
+CMAKE_BINARY_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include Tests/lib/googletest/CMakeFiles/gtest_main.dir/depend.make
@@ -59,16 +59,16 @@ include Tests/lib/googletest/CMakeFiles/gtest_main.dir/flags.make
 
 Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: Tests/lib/googletest/CMakeFiles/gtest_main.dir/flags.make
 Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: ../Tests/lib/googletest/src/gtest_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/src/gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googletest" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/lib/googletest/src/gtest_main.cc"
 
 Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googletest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/lib/googletest/src/gtest_main.cc" > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googletest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/lib/googletest/src/gtest_main.cc" -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 # Object files for target gtest_main
 gtest_main_OBJECTS = \
@@ -80,9 +80,9 @@ gtest_main_EXTERNAL_OBJECTS =
 lib/libgtest_maind.a: Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 lib/libgtest_maind.a: Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make
 lib/libgtest_maind.a: Tests/lib/googletest/CMakeFiles/gtest_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgtest_maind.a"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgtest_maind.a"
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googletest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googletest" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Tests/lib/googletest/CMakeFiles/gtest_main.dir/build: lib/libgtest_maind.a
@@ -90,10 +90,10 @@ Tests/lib/googletest/CMakeFiles/gtest_main.dir/build: lib/libgtest_maind.a
 .PHONY : Tests/lib/googletest/CMakeFiles/gtest_main.dir/build
 
 Tests/lib/googletest/CMakeFiles/gtest_main.dir/clean:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googletest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
 .PHONY : Tests/lib/googletest/CMakeFiles/gtest_main.dir/clean
 
 Tests/lib/googletest/CMakeFiles/gtest_main.dir/depend:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mrhowever/Programming/Projects/Functions /home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest /home/mrhowever/Programming/Projects/Functions/cmake-build-debug /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/lib/googletest" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googletest" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Tests/lib/googletest/CMakeFiles/gtest_main.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/mrhowever/Programming/Projects/Functions/Tests/lib
+# Install script for directory: /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googlemock/cmake_install.cmake")
+  include("/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googlemock/cmake_install.cmake")
 
 endif()
 

@@ -2,9 +2,7 @@
 // Created by mrhowever on 11.02.2020.
 //
 
-#include "IncludeValue.hh"
 #include "Value.hh"
-
 
 #define ASSIGNMENT_OP(TYPE,FIELD,ENUM)  \
     template<>                          \
@@ -99,11 +97,6 @@ namespace MC::FN
     VALUE_OP(*=)
     VALUE_OP(/=)
 
-    void Value::simplify()
-    {
-        //TODO
-    }
-
     Value Value::evaluate(const Value& val) const
     {
         return *this;
@@ -126,13 +119,15 @@ namespace MC::FN
             case UINT64:    return std::to_string(_data.u64);
 //          case BIGINT:    return std::to_string(_data.bi);
 //          case BIGDOUBLE: return std::to_string(_data.bd);
+
+            default: throw InvalidOperationException("Type not handled");
         }
     }
 
-    ArithmeticType Value::getType() const
-    {
-        return VAL;
-    }
+//    constexpr ArithmeticType Value::getType() const
+//    {
+//        return VAL;
+//    }
 
     bool Value::operator==(const Value& o) const
     {
@@ -153,6 +148,7 @@ namespace MC::FN
             case UINT64:  return _data.u64 == o._data.u64;
 //          case BIGINT:    return _data.bi == o._data.bi;
 //          case BIGDOUBLE: return _data.bd == o._data.bd;
+            default: throw InvalidOperationException("Type not handled");
         }
     }
 
@@ -180,6 +176,7 @@ namespace MC::FN
             case UINT64:  return _data.u64 < o._data.u64;
 //          case BIGINT:    return _data.bi < o._data.bi;
 //          case BIGDOUBLE: return _data.bd < o._data.bd;
+            default: throw InvalidOperationException("Type not handled");
         }
     }
 
@@ -202,6 +199,7 @@ namespace MC::FN
             case UINT64:  return _data.u64 <= o._data.u64;
 //          case BIGINT:    return _data.bi <= o._data.bi;
 //          case BIGDOUBLE: return _data.bd <= o._data.bd;
+            default: throw InvalidOperationException("Type not handled");
         }
     }
 
@@ -224,6 +222,7 @@ namespace MC::FN
             case UINT64:  return _data.u64 > o._data.u64;
 //          case BIGINT:    return _data.bi > o._data.bi;
 //          case BIGDOUBLE: return _data.bd > o._data.bd;
+            default: throw InvalidOperationException("Type not handled");
         }
     }
 
@@ -246,6 +245,7 @@ namespace MC::FN
             case UINT64:  return _data.u64 >= o._data.u64;
 //          case BIGINT:    return _data.bi >= o._data.bi;
 //          case BIGDOUBLE: return _data.bd >= o._data.bd;
+            default: throw InvalidOperationException("Type not handled");
         }
     }
 

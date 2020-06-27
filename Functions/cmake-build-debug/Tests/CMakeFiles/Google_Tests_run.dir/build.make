@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mrhowever/Programming/Projects/Functions
+CMAKE_SOURCE_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mrhowever/Programming/Projects/Functions/cmake-build-debug
+CMAKE_BINARY_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include Tests/CMakeFiles/Google_Tests_run.dir/depend.make
@@ -59,62 +59,48 @@ include Tests/CMakeFiles/Google_Tests_run.dir/flags.make
 
 Tests/CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.o: Tests/CMakeFiles/Google_Tests_run.dir/flags.make
 Tests/CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.o: ../Tests/FunctionsTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.o"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.o -c /home/mrhowever/Programming/Projects/Functions/Tests/FunctionsTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.o"
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/FunctionsTests.cpp"
 
 Tests/CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.i"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/Tests/FunctionsTests.cpp > CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.i
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/FunctionsTests.cpp" > CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.i
 
 Tests/CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.s"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/Tests/FunctionsTests.cpp -o CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.s
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/FunctionsTests.cpp" -o CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.s
 
 Tests/CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.o: Tests/CMakeFiles/Google_Tests_run.dir/flags.make
 Tests/CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.o: ../Tests/MultiplicationTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Tests/CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.o"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.o -c /home/mrhowever/Programming/Projects/Functions/Tests/MultiplicationTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Tests/CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.o"
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/MultiplicationTests.cpp"
 
 Tests/CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.i"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/Tests/MultiplicationTests.cpp > CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.i
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/MultiplicationTests.cpp" > CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.i
 
 Tests/CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.s"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/Tests/MultiplicationTests.cpp -o CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.s
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/MultiplicationTests.cpp" -o CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.s
 
 Tests/CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.o: Tests/CMakeFiles/Google_Tests_run.dir/flags.make
 Tests/CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.o: ../Tests/DivisionTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Tests/CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.o"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.o -c /home/mrhowever/Programming/Projects/Functions/Tests/DivisionTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Tests/CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.o"
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.o -c "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/DivisionTests.cpp"
 
 Tests/CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.i"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/Tests/DivisionTests.cpp > CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.i
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/DivisionTests.cpp" > CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.i
 
 Tests/CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.s"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/Tests/DivisionTests.cpp -o CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.s
-
-Tests/CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.o: Tests/CMakeFiles/Google_Tests_run.dir/flags.make
-Tests/CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.o: ../CustomPointer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Tests/CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.o"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.o -c /home/mrhowever/Programming/Projects/Functions/CustomPointer.cpp
-
-Tests/CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.i"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrhowever/Programming/Projects/Functions/CustomPointer.cpp > CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.i
-
-Tests/CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.s"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrhowever/Programming/Projects/Functions/CustomPointer.cpp -o CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.s
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/DivisionTests.cpp" -o CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.s
 
 # Object files for target Google_Tests_run
 Google_Tests_run_OBJECTS = \
 "CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.o" \
 "CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.o" \
-"CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.o" \
-"CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.o"
+"CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.o"
 
 # External object files for target Google_Tests_run
 Google_Tests_run_EXTERNAL_OBJECTS =
@@ -122,17 +108,14 @@ Google_Tests_run_EXTERNAL_OBJECTS =
 Tests/Google_Tests_run: Tests/CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.o
 Tests/Google_Tests_run: Tests/CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.o
 Tests/Google_Tests_run: Tests/CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.o
-Tests/Google_Tests_run: Tests/CMakeFiles/Google_Tests_run.dir/__/CustomPointer.cpp.o
 Tests/Google_Tests_run: Tests/CMakeFiles/Google_Tests_run.dir/build.make
 Tests/Google_Tests_run: ../lib/libFunctions.a
 Tests/Google_Tests_run: lib/libgtestd.a
 Tests/Google_Tests_run: lib/libgtest_maind.a
-Tests/Google_Tests_run: /home/mrhowever/Programming/Projects/TypeTraits/lib/libTypeTraits.a
-Tests/Google_Tests_run: /home/mrhowever/Programming/Projects/BasicOperations/lib/libBasicOperations.a
 Tests/Google_Tests_run: lib/libgtestd.a
 Tests/Google_Tests_run: Tests/CMakeFiles/Google_Tests_run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Google_Tests_run"
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Google_Tests_run.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Google_Tests_run"
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Google_Tests_run.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Tests/CMakeFiles/Google_Tests_run.dir/build: Tests/Google_Tests_run
@@ -140,10 +123,10 @@ Tests/CMakeFiles/Google_Tests_run.dir/build: Tests/Google_Tests_run
 .PHONY : Tests/CMakeFiles/Google_Tests_run.dir/build
 
 Tests/CMakeFiles/Google_Tests_run.dir/clean:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests && $(CMAKE_COMMAND) -P CMakeFiles/Google_Tests_run.dir/cmake_clean.cmake
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests" && $(CMAKE_COMMAND) -P CMakeFiles/Google_Tests_run.dir/cmake_clean.cmake
 .PHONY : Tests/CMakeFiles/Google_Tests_run.dir/clean
 
 Tests/CMakeFiles/Google_Tests_run.dir/depend:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mrhowever/Programming/Projects/Functions /home/mrhowever/Programming/Projects/Functions/Tests /home/mrhowever/Programming/Projects/Functions/cmake-build-debug /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/CMakeFiles/Google_Tests_run.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/CMakeFiles/Google_Tests_run.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Tests/CMakeFiles/Google_Tests_run.dir/depend
 

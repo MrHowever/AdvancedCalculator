@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mrhowever/Programming/Projects/Functions
+CMAKE_SOURCE_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mrhowever/Programming/Projects/Functions/cmake-build-debug
+CMAKE_BINARY_DIR = "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,37 +59,37 @@ CMAKE_BINARY_DIR = /home/mrhowever/Programming/Projects/Functions/cmake-build-de
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -105,7 +105,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -116,7 +116,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/mmm/Downloads/clion-202.5792.50/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/Tests/lib/googletest/CMakeFiles/progress.marks
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrhowever/Programming/Projects/Functions/cmake-build-debug/CMakeFiles 0
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/lib/googletest/CMakeFiles/progress.marks"
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/clean
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/preinstall
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/preinstall
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Tests/lib/googletest/CMakeFiles/gtest_main.dir/rule:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/CMakeFiles/gtest_main.dir/rule
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/CMakeFiles/gtest_main.dir/rule
 .PHONY : Tests/lib/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ gtest_main: Tests/lib/googletest/CMakeFiles/gtest_main.dir/rule
 
 # fast build rule for target.
 gtest_main/fast:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Tests/lib/googletest/CMakeFiles/gtest_main.dir/build
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Tests/lib/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
 # Convenience name for target.
 Tests/lib/googletest/CMakeFiles/gtest.dir/rule:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/CMakeFiles/gtest.dir/rule
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/CMakeFiles/gtest.dir/rule
 .PHONY : Tests/lib/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ gtest: Tests/lib/googletest/CMakeFiles/gtest.dir/rule
 
 # fast build rule for target.
 gtest/fast:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Tests/lib/googletest/CMakeFiles/gtest.dir/build
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Tests/lib/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
 src/gtest-all.o: src/gtest-all.cc.o
@@ -192,7 +192,7 @@ src/gtest-all.o: src/gtest-all.cc.o
 
 # target to build an object file
 src/gtest-all.cc.o:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 .PHONY : src/gtest-all.cc.o
 
 src/gtest-all.i: src/gtest-all.cc.i
@@ -201,7 +201,7 @@ src/gtest-all.i: src/gtest-all.cc.i
 
 # target to preprocess a source file
 src/gtest-all.cc.i:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i
 .PHONY : src/gtest-all.cc.i
 
 src/gtest-all.s: src/gtest-all.cc.s
@@ -210,7 +210,7 @@ src/gtest-all.s: src/gtest-all.cc.s
 
 # target to generate assembly for a file
 src/gtest-all.cc.s:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s
 .PHONY : src/gtest-all.cc.s
 
 src/gtest_main.o: src/gtest_main.cc.o
@@ -219,7 +219,7 @@ src/gtest_main.o: src/gtest_main.cc.o
 
 # target to build an object file
 src/gtest_main.cc.o:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 .PHONY : src/gtest_main.cc.o
 
 src/gtest_main.i: src/gtest_main.cc.i
@@ -228,7 +228,7 @@ src/gtest_main.i: src/gtest_main.cc.i
 
 # target to preprocess a source file
 src/gtest_main.cc.i:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 .PHONY : src/gtest_main.cc.i
 
 src/gtest_main.s: src/gtest_main.cc.s
@@ -237,7 +237,7 @@ src/gtest_main.s: src/gtest_main.cc.s
 
 # target to generate assembly for a file
 src/gtest_main.cc.s:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(MAKE) -f Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 .PHONY : src/gtest_main.cc.s
 
 # Help Target
@@ -271,6 +271,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mrhowever/Programming/Projects/Functions/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTH
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mrhowever/Programming/Projects/TypeTraits/include -I/home/mrhowever/Programming/Projects/BasicOperations/include -I/home/mrhowever/Programming/Projects/Interfaces/include -I/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest/include -I/home/mrhowever/Programming/Projects/Functions/Tests/lib/googletest 
+CXX_INCLUDES = -I"/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/lib/googletest/include" -I"/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/lib/googletest" 
 

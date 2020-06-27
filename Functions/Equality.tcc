@@ -6,7 +6,7 @@
 namespace MC::FN
 {
     template<typename T, typename P>
-    Equality::Equality(const T& o1, const P& o2)
+    Equality::Equality(const T& o1, const P& o2) : _first(nullptr), _second(nullptr)
     {
         invokeOperation(o1);
         invokeOperation(o2);
@@ -54,30 +54,10 @@ namespace MC::FN
         return !(second == Value(first));
     }
 
-    template<typename T, typename>
-    void Equality::invokeOperation(const T& o)
-    {
-        __compare(o);
-    }
-
-    template<typename T, typename>
-    void Equality::invokeOperation(const T* o)
-    {
-        switch(o->getType())
-        {
-            case SUM: invokeOperation(dynamic_cast<const Sum&>(*o));            break;
-            case MUL: invokeOperation(dynamic_cast<const Multiplication&>(*o)); break;
-            case DIV: invokeOperation(dynamic_cast<const Division&>(*o));       break;
-            case LOG: invokeOperation(dynamic_cast<const Logarithm&>(*o));      break;
-            case VAR: invokeOperation(dynamic_cast<const Variable&>(*o));       break;
-            case VAL: invokeOperation(dynamic_cast<const Value&>(*o));          break;
-        }
-    }
-
     template<typename T>
-    void Equality::__compare(const T& o)
+    void Equality::__genOp(const T& o)
     {
-        _first ? _second : _first = OperatorFactory::copy(&o);
+        (_first ? _second : _first) = OperatorFactory::copy(&o);
     }
 }
 

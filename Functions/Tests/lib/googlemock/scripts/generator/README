@@ -27,7 +27,7 @@ This version was made from SVN revision 281 in the cppclean repository.
 Known Limitations
 -----------------
 Not all code will be generated properly.  For example, when mocking templated
-classes, the template information is lost.  You will need to __add the template
+classes, the template information is lost.  You will need to __op the template
 information manually.
 
 Not all permutations of using multiple pointers/references will be rendered

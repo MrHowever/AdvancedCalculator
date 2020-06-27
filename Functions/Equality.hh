@@ -1,28 +1,30 @@
 #ifndef FUNCTIONS_EQUALITY_HH
 #define FUNCTIONS_EQUALITY_HH
 
-#include "ArithmeticObject.hh"
-#include "Typedefs.hh"
-#include "IncludeValue.hh"
+#include "Operator.hh"
 
 namespace MC::FN
 {
-    class Equality : public ArithmeticObject {
+    class Equality : public Operator {
 
         ArithmeticObject* _first;
         ArithmeticObject* _second;
 
-        template<typename T> void __compare(const T&);
-        template<typename T, typename = EnableIfIsArithmetic<T>> void invokeOperation(const T&);
-        template<typename T, typename = EnableIfIsArithmetic<T>> void invokeOperation(const T*);
+        template<typename T> void __genOp(const T&);
+        void __op(const Sum&) override;
+        void __op(const Multiplication&) override;
+        void __op(const Division&) override;
+        void __op(const Value&) override;
+        void __op(const Variable&) override;
+        void __op(const Logarithm&) override;
+
 
     public:
         template<typename T, typename P> Equality(const T&, const P&);
 
-        void simplify() override;
         [[nodiscard]] Value evaluate(const Value&) const override;
         [[nodiscard]] std::string print() const override;
-        [[nodiscard]] ArithmeticType getType() const override;
+        [[nodiscard]] constexpr ArithmeticType getType() const override { return EQ; }
    };
 
     template<typename T, typename P, typename = EnableIfAreArithmetic<T,P>>
