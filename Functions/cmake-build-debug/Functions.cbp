@@ -370,16 +370,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.tcc">
+			<Option target="Functions"/>
+		</Unit>
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.cpp">
 			<Option target="Functions"/>
 		</Unit>
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh">
 			<Option target="Functions"/>
 		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.tcc">
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.hh">
 			<Option target="Functions"/>
 		</Unit>
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticType.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AssociativeOperator.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AssociativeOperator.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AssociativeOperator.tcc">
 			<Option target="Functions"/>
 		</Unit>
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.cpp">
@@ -391,31 +412,43 @@
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.tcc">
 			<Option target="Functions"/>
 		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Equality.cpp">
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.cpp">
 			<Option target="Functions"/>
 		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Equality.hh">
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.hh">
 			<Option target="Functions"/>
 		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Equality.tcc">
-			<Option target="Functions"/>
-		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.cpp">
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.tcc">
 			<Option target="Functions"/>
 		</Unit>
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh">
 			<Option target="Functions"/>
 		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Exponentiation.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Exponentiation.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Exponentiation.tcc">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.tcc">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExpressionParser.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExpressionParser.hh">
+			<Option target="Functions"/>
+		</Unit>
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/InvalidOperationException.hh">
-			<Option target="Functions"/>
-		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Iterable.hh">
-			<Option target="Functions"/>
-		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.cpp">
-			<Option target="Functions"/>
-		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.hh">
 			<Option target="Functions"/>
 		</Unit>
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.cpp">
@@ -427,16 +460,25 @@
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.tcc">
 			<Option target="Functions"/>
 		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.cpp">
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.cpp">
 			<Option target="Functions"/>
 		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh">
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.hh">
 			<Option target="Functions"/>
 		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.tcc">
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.tcc">
 			<Option target="Functions"/>
 		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/OperatorFactory.hh">
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/NonAssociativeOperator.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/NonAssociativeOperator.hh">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SortHash.cpp">
+			<Option target="Functions"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SortHash.hh">
 			<Option target="Functions"/>
 		</Unit>
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.cpp">
@@ -448,19 +490,28 @@
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.tcc">
 			<Option target="Functions"/>
 		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.cpp">
-			<Option target="Functions"/>
-		</Unit>
-		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.hh">
-			<Option target="Functions"/>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/DivisionOperatorsTests.cpp">
+			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/DivisionTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/ExponentiationOperatorsTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/FunctionsTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/MultiplicationOperatorsTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/MultiplicationTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/ParserTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/SumOperatorsTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/lib/googlemock/src/gmock-all.cc">

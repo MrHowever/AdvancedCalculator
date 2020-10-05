@@ -1,33 +1,40 @@
 #ifndef FUNCTIONS_SUM_TCC
 #define FUNCTIONS_SUM_TCC
 
+#include "Typedefs.hh"
+#include "AdditionOperators.hh"
+
 namespace MC::FN
 {
-    template<typename T, typename P>
+    template<ArithmeticRef T, ArithmeticRef P>
     Sum::Sum(const T& o1, const P& o2) : Sum()
     {
         invokeOperation(o1);
         invokeOperation(o2);
     }
 
-    template<Arithmetic T, Arithmetic P>
-    [[nodiscard]] Sum operator+(const T& o1, const P& o2)
+    template<ArithmeticRef T>
+    void Sum::invokeOperation(const T& o)
     {
-        return Sum(o1,o2);
-    }
+        if constexpr(std::is_same_v<T,Sum>) {
+            o.for_each([this](auto& elem) { invokeOperation(elem); } );
+            return;
+        }
 
-    template<Arithmetic T, Primitive P>
-    [[nodiscard]] Sum operator+(const T& first, const P& second)
-    {
-        return first + Value(second);
-    }
+        if (size() > 1) {
+            for (auto& elem : *this) {
+                auto result = o + elem;
 
-    template<Arithmetic T, Primitive P>
-    [[nodiscard]] Sum operator+(const P& first, const T& second)
-    {
-        return second + Value(first);
-    }
+                if (result->getType() != SUM) {
+                    remove(elem);
+                    add(result);
+                    return;
+                }
+            }
+        }
 
-    //TODO  handle built-in arithmetic types
+        add(o);
+    }
 }
+
 #endif //FUNCTIONS_SUM_TCC

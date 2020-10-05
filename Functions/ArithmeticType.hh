@@ -8,7 +8,7 @@
 namespace MC::FN
 {
     enum ArithmeticType : int {
-        SUM, MUL, DIV, LOG, EXP, VAR, VAL, EQ
+        SUM, MUL, DIV, LOG, EXP, VAR, VAL
     };
 }
 

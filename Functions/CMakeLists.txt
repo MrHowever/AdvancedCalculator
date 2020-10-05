@@ -3,7 +3,9 @@
 
     set(CMAKE_CXX_STANDARD 20)
 
-    add_library(Functions Sum.hh Sum.cpp ArithmeticObject.hh InvalidOperationException.hh Typedefs.hh Multiplication.hh Division.hh Logarithm.hh Logarithm.cpp Variable.hh Value.hh Value.cpp Value.tcc Sum.tcc Multiplication.tcc Multiplication.cpp Division.tcc Division.cpp Logarithm.cpp Variable.cpp ArithmeticType.hh Equality.cpp Equality.hh Equality.tcc ArithmeticObject.cpp ArithmeticObject.tcc OperatorFactory.hh EqualityComparable.cpp EqualityComparable.hh Iterable.hh Operator.hh Operator.cpp Operator.tcc SumIterator.cpp SumIterator.hh)
+    SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -std=c++2a")
+
+    add_library(Functions Sum.hh Sum.cpp ArithmeticObject.hh InvalidOperationException.hh Typedefs.hh Multiplication.hh Division.hh Variable.hh Value.hh Value.cpp Value.tcc Sum.tcc Multiplication.tcc Multiplication.cpp Division.tcc Division.cpp Variable.cpp ArithmeticType.hh ArithmeticObject.cpp EqualityComparable.hh Exponentiation.cpp Exponentiation.hh Exponentiation.tcc ExpressionParser.cpp ExpressionParser.hh ArithmeticPointerWrapper.hh ArithmeticPointerWrapper.cpp MultiplicationOperators.hh AdditionOperators.hh DivisionOperators.hh ExponentiationOperators.hh MultiplicationOperators.cpp AdditionOperators.cpp DivisionOperators.cpp ExponentiationOperators.cpp MultiplicationOperators.tcc AdditionOperators.tcc DivisionOperators.tcc ExponentiationOperators.tcc AssociativeOperator.cpp AssociativeOperator.hh AssociativeOperator.tcc NonAssociativeOperator.cpp NonAssociativeOperator.hh SortHash.cpp SortHash.hh)
 
     add_subdirectory(Tests)
 

@@ -1,49 +1,52 @@
 #ifndef FUNCTIONS_MULTIPLICATION_TCC
 #define FUNCTIONS_MULTIPLICATION_TCC
 
+#include "Value.hh"
+
 namespace MC::FN
 {
-    template<typename T, typename P>
+    template<ArithmeticRef T, ArithmeticRef P>
     Multiplication::Multiplication(const T& o1, const P& o2) : Multiplication()
     {
         invokeOperation(o1);
         invokeOperation(o2);
     }
 
-    template<Arithmetic T, Arithmetic P>
-    [[nodiscard]] Multiplication operator*(const T& o1, const P& o2)
+    template<ArithmeticRef T>
+    void Multiplication::invokeOperation(const T& o)
     {
-        return Multiplication(o1,o2);
-    }
+        if constexpr(std::is_same_v<T,Multiplication>) {
+            if(!size()) {
+                *this = o;
+            } else if(size() == 1) {
+                Multiplication mult = o;
+                mult.invokeOperation(*begin());
+                *this = mult;
+            } else {
+                for (auto& elem : o) {
+                    invokeOperation(elem);
+                }
+            }
 
-    template<Arithmetic T, Primitive P>
-    [[nodiscard]] Multiplication operator*(const T& first, const P& second)
-    {
-        return first * Value(second);
-    }
+            return;
+        }
 
-    template<Arithmetic T, Primitive P>
-    [[nodiscard]] Multiplication operator*(const P& first, const T& second)
-    {
-        return second * Value(first);
-    }
+        if (size() > 1) {
+            for (auto& elem : *this) {
+                auto result = o * elem;
 
-    template<typename T>
-    bool Multiplication::Base::is() const
-    {
-        throw InvalidOperationException("Invalid template type");
-    }
+                if(result->getType() == VAL && compare(result, new Value(1))) {
+                        remove(elem);
+                        return;
+                } else if (result->getType() != MUL) {
+                    remove(elem);
+                    add(result);
+                    return;
+                }
+            }
+        }
 
-    template<Primitive P>
-    Variable operator*(const Variable& var, const P& val)
-    {
-        return Variable(Value(val),var.getSign());
-    }
-
-    template<Primitive P>
-    Variable operator*(const P& val, const Variable& var)
-    {
-        return Variable(Value(val),var.getSign());
+        add(o);
     }
 }
 

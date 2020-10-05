@@ -1,84 +1,40 @@
-//
-// Created by mrhowever on 30.01.2020.
-//
-
 #ifndef FUNCTIONS_TYPEDEFS_HH
 #define FUNCTIONS_TYPEDEFS_HH
 
-#include <type_traits>
-#include <limits>
+#include "type_traits"
 
 namespace MC::FN
 {
-    class ArithmeticObject;
-    class Sum;
-    class Multiplication;
-    class Division;
-    class Variable;
-    class Logarithm;
+    class AssociativeOperator;
+    class NonAssociativeOperator;
     class Value;
-
-    template<bool B, class T = void> using EnableIf = std::enable_if_t<B,int>;
-
-    template<template<class> typename T, typename ...Types> inline constexpr bool SomeOf = std::disjunction_v<T<Types>...>;
-    template<template<class> typename T, typename ...Types> inline constexpr bool AllOf  = std::conjunction_v<T<Types>...>;
-    template<template<class> typename T, typename ...Types> inline constexpr bool NoneOf = std::negation_v<AllOf<T<Types>...>>;
-
-    template<typename T> inline constexpr bool IsPrimitiveV = std::is_arithmetic_v<T>;
-
-    template<typename T> struct is_arithmetic_ptr : std::false_type {};
-    template<> struct is_arithmetic_ptr<Sum*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Multiplication*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Division*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Value*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Variable*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<ArithmeticObject*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Logarithm*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const Sum*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const Multiplication*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const Division*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const Value*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const Variable*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const ArithmeticObject*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const Logarithm*> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Sum* const> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Multiplication* const> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Division* const> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Value* const> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Variable* const> : std::true_type {};
-    template<> struct is_arithmetic_ptr<ArithmeticObject* const> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Logarithm* const> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Sum* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Multiplication* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Division* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Value* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Variable* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<ArithmeticObject* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<Logarithm* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const Sum* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const Multiplication* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const Division* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const Value* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const Variable* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const ArithmeticObject* const&> : std::true_type {};
-    template<> struct is_arithmetic_ptr<const Logarithm* const&> : std::true_type {};
-
-    template<typename T> inline constexpr bool IsArithmeticPtrV = is_arithmetic_ptr<T>::value;
-    template<typename T, typename P> inline constexpr bool AreSameV = std::is_same_v<T,P>;  //TODO variadic templates
-
-    template<typename T> inline constexpr bool IsArithmeticV = std::is_base_of_v<ArithmeticObject,T>;
+    class ArithmeticObject;
+    template<typename T> class PointerWrapper;
+    typedef PointerWrapper<ArithmeticObject> ArithmeticPointerWrapper;
 
     template<typename T>
-    concept Arithmetic = std::is_base_of_v<ArithmeticObject,T>;
+    concept IsPointerWrapper = std::is_same_v<T, PointerWrapper<ArithmeticObject>>;
+
+    template<typename T>
+    concept Arithmetic = std::is_base_of_v<ArithmeticObject,T> or (std::is_convertible_v<ArithmeticPointerWrapper,T> and std::is_class_v<T>);
+
+    template<typename T>
+    concept ArithmeticRef = std::is_base_of_v<ArithmeticObject,T> and not (std::is_pointer_v<T>) and not IsPointerWrapper<T>;
+
+    template<typename T>
+    concept ArithmeticOperator = (std::is_base_of_v<ArithmeticObject,T> or std::is_convertible_v<ArithmeticPointerWrapper,T>) and !std::is_same_v<T,Value>;
 
     template<typename T>
     concept Primitive = std::is_arithmetic_v<T>;
 
-    template<typename T> using EnableIfPrimitive = EnableIf<IsPrimitiveV<T>>;
-    template<typename T> using EnableIfIsArithmetic = EnableIf<IsArithmeticV<T>>;
-    template<typename T, typename P> using EnableIfAreArithmetic = EnableIf<IsArithmeticV<T> and IsArithmeticV<P>>;
-    template<typename T, typename P> using EnableIfAreArithmeticOrPtr = EnableIf<(IsArithmeticV<T> or IsArithmeticV<std::remove_pointer<T>::type()>)
-                                                    and (IsArithmeticV<P> or IsArithmeticV<std::remove_pointer<P>::type()>)>;
+    template<typename T>
+    concept AssociativeRef = std::is_base_of_v<AssociativeOperator,T> and not (std::is_pointer_v<T>) and not IsPointerWrapper<T>;
+
+    template<typename T>
+    concept NonAssociativeRef = std::is_base_of_v<NonAssociativeOperator,T> and not (std::is_pointer_v<T>) and not IsPointerWrapper<T>;
+
+    template<typename T>
+    concept NotAssociativeRef = (std::is_base_of_v<ArithmeticObject, T> or std::is_base_of_v<NonAssociativeOperator,T>) and not std::is_base_of_v<AssociativeOperator,T> and not (std::is_pointer_v<T>) and not IsPointerWrapper<T>;
 
 //    template<typename T> T Max = std::numeric_limits<T>::max();
 //    template<typename T> T Min = std::numeric_limits<T>::min();

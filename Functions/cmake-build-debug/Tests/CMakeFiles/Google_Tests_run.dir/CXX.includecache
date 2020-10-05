@@ -300,153 +300,291 @@ cxxabi.h
 acxx_demangle.h
 -
 
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.hh
+Typedefs.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
+AdditionOperators.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.tcc
+ArithmeticPointerWrapper.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.hh
+Exponentiation.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Exponentiation.hh
+Sum.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
+Multiplication.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
+Division.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
+Variable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
+Value.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
+MultiplicationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.hh
+atomic
+-
+
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
 ArithmeticType.hh
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticType.hh
 string
 -
-ArithmeticObject.tcc
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.tcc
 
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.hh
+cstddef
+-
+Typedefs.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
+typeinfo
+-
 
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticType.hh
 
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
-Operator.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AssociativeOperator.hh
+ArithmeticPointerWrapper.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.hh
+list
+-
+ArithmeticObject.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
 EqualityComparable.hh
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh
+AssociativeOperator.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AssociativeOperator.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AssociativeOperator.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
+NonAssociativeOperator.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/NonAssociativeOperator.hh
+Typedefs.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
 Division.tcc
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.tcc
 
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.tcc
-Operator.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.hh
+Typedefs.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
+DivisionOperators.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.tcc
+ArithmeticPointerWrapper.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.hh
+Exponentiation.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Exponentiation.hh
+Sum.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
+Multiplication.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
+Division.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
+Variable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
+Value.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
 
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Exponentiation.hh
+Typedefs.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
+NonAssociativeOperator.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/NonAssociativeOperator.hh
+Exponentiation.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Exponentiation.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Exponentiation.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.hh
+Typedefs.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
+ExponentiationOperators.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.tcc
+ArithmeticPointerWrapper.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.hh
+Exponentiation.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Exponentiation.hh
+Sum.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
+Multiplication.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
+Division.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
+Variable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
+Value.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
 
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/InvalidOperationException.hh
 stdexcept
 -
 
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Iterable.hh
-
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.hh
-ArithmeticObject.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
-
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
-EqualityComparable.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh
-Iterable.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Iterable.hh
-Operator.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
-unordered_map
--
-list
--
-Value.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
-Variable.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
+AssociativeOperator.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AssociativeOperator.hh
+ArithmeticPointerWrapper.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.hh
 Multiplication.tcc
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.tcc
 
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.tcc
+Value.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
 
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
-ArithmeticObject.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.hh
 Typedefs.hh
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
-string
+MultiplicationOperators.tcc
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.tcc
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.tcc
+ArithmeticPointerWrapper.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.hh
+ExponentiationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.hh
+algorithm
 -
-Operator.tcc
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.tcc
-
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.tcc
-Operator.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
-
+Exponentiation.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Exponentiation.hh
+Sum.hh
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
-Operator.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Operator.hh
+Multiplication.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
+Variable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
+Value.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
+DivisionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.hh
+atomic
+-
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/NonAssociativeOperator.hh
+ArithmeticObject.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
+ArithmeticPointerWrapper.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.hh
 EqualityComparable.hh
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh
-SumIterator.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.hh
-Iterable.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Iterable.hh
-map
--
-unordered_map
--
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
+AssociativeOperator.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AssociativeOperator.hh
+ArithmeticPointerWrapper.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.hh
+ArithmeticObject.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
+EqualityComparable.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/EqualityComparable.hh
 Sum.tcc
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.tcc
 
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.tcc
+Typedefs.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
+AdditionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.hh
 
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/SumIterator.hh
-list
--
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/DivisionOperatorsTests.cpp
+gtest/gtest.h
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/gtest/gtest.h
+../MultiplicationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.hh
+../DivisionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.hh
+../AdditionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.hh
+../ExponentiationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.hh
 
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/DivisionTests.cpp
 gtest/gtest.h
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/gtest/gtest.h
-../Sum.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
-../Division.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
-../Multiplication.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
-../Value.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
-../Variable.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
-../Logarithm.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.hh
+../MultiplicationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.hh
+../DivisionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.hh
+../AdditionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.hh
+../ExponentiationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.hh
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/ExponentiationOperatorsTests.cpp
+gtest/gtest.h
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/gtest/gtest.h
+../MultiplicationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.hh
+../DivisionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.hh
+../AdditionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.hh
+../ExponentiationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.hh
 
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/FunctionsTests.cpp
 gtest/gtest.h
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/gtest/gtest.h
-../Sum.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
-../Division.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
-../Multiplication.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
-../Value.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
-../Variable.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
+../MultiplicationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.hh
+../DivisionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.hh
+../AdditionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.hh
+../ExponentiationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.hh
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/MultiplicationOperatorsTests.cpp
+gtest/gtest.h
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/gtest/gtest.h
+../MultiplicationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.hh
+../DivisionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.hh
+../AdditionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.hh
+../ExponentiationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.hh
 
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/MultiplicationTests.cpp
 gtest/gtest.h
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/gtest/gtest.h
-../Sum.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Sum.hh
-../Division.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Division.hh
-../Multiplication.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
-../Value.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
-../Variable.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
-../Logarithm.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Logarithm.hh
+../MultiplicationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.hh
+../DivisionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.hh
+../AdditionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.hh
+../ExponentiationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.hh
+
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/SumOperatorsTests.cpp
+gtest/gtest.h
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/gtest/gtest.h
+../MultiplicationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/MultiplicationOperators.hh
+../DivisionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/DivisionOperators.hh
+../AdditionOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/AdditionOperators.hh
+../ExponentiationOperators.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ExponentiationOperators.hh
 
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
 type_traits
--
-limits
--
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/type_traits
 
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
 ArithmeticObject.hh
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
+Typedefs.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Typedefs.hh
 cstdint
 -
 Value.tcc
@@ -455,10 +593,20 @@ Value.tcc
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.tcc
 InvalidOperationException.hh
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/InvalidOperationException.hh
+cmath
+-
+Value.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
+ArithmeticPointerWrapper.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.hh
+Multiplication.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Multiplication.hh
+Exponentiation.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Exponentiation.hh
 
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Variable.hh
-ArithmeticObject.hh
-/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticObject.hh
+ArithmeticPointerWrapper.hh
+/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/ArithmeticPointerWrapper.hh
 Value.hh
 /media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Value.hh
 

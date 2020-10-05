@@ -1,12 +1,16 @@
 #include "Variable.hh"
+#include "ArithmeticPointerWrapper.hh"
+#include "Sum.hh"
+#include "Exponentiation.hh"
+#include "Division.hh"
 
 namespace MC::FN
 {
-    Variable::Variable(char val) : _value(val), _factor(1) {}
+    Variable::Variable(char sign) : _value(sign) {}
 
     Value Variable::evaluate(const Value& val) const
     {
-        return val * _factor;
+        return val;
     }
 
     constexpr ArithmeticType Variable::getType() const
@@ -14,14 +18,14 @@ namespace MC::FN
         return VAR;
     }
 
-    std::string Variable::print() const
+    std::string Variable::print()
     {
-        return (_factor != Value(1) ? _factor.print() : "") + _value;
+        return std::string(1, _value);
     }
 
     bool Variable::operator==(const Variable& var) const
     {
-        return _value == var._value and _factor == var._factor;
+        return _value == var._value;
     }
 
     bool Variable::operator!=(const Variable& o2) const
@@ -29,24 +33,9 @@ namespace MC::FN
         return !(*this == o2);
     }
 
-    bool Variable::operator<(const Variable& v) const
-    {
-        return _value < v._value;
-    }
-
-    char Variable::getSign() const
+    char Variable::getValue() const
     {
         return _value;
-    }
-
-    Variable::Variable(const Value& val, char sign) : _value(sign), _factor(val)
-    {
-
-    }
-
-    Value Variable::getFactor() const
-    {
-        return _factor;
     }
 }
 

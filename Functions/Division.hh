@@ -5,62 +5,35 @@
 #ifndef FUNCTIONS_DIVISION_HH
 #define FUNCTIONS_DIVISION_HH
 
-#include "Operator.hh"
-#include "EqualityComparable.hh"
+#include "NonAssociativeOperator.hh"
+#include "Typedefs.hh"
 
 namespace MC::FN
 {
-    class Division : public Operator, public EqualityComparable<Division> {
-
-        // Members
-        ArithmeticObject* _nom;
-        ArithmeticObject* _denom;
-
+    class Division : public NonAssociativeOperator {
         // Base constructor
-        Division();
+        Division() = default;
 
-        template<typename T> void __genOp(const T&);
-
-        // Internal helper methods
-        void __op(const Sum&) override;
-        void __op(const Multiplication&) override;
-        void __op(const Division&) override;
-        void __op(const Value&) override;
-        void __op(const Variable&) override;
-        void __op(const Logarithm&) override;
-
-        void simplify();
     public:
         // Public constructor
-        template<typename T, typename P> Division(const T&, const P&);
-
-        // Equality operators
-        [[nodiscard]] bool operator==(const Division&) const override;
-        [[nodiscard]] bool operator!=(const Division&) const override;
+        template<ArithmeticRef T, ArithmeticRef P> Division(const T&, const P&);
+        Division(const ArithmeticPointerWrapper &, const ArithmeticPointerWrapper &);
+        Division(const Division&);
+        Division& operator=(const Division&);
 
         // Inherited methods
         [[nodiscard]] Value evaluate(const Value&) const override;
-        [[nodiscard]] std::string print() const override;
-        [[nodiscard]] constexpr ArithmeticType getType() const override { return DIV; }
+        [[nodiscard]] std::string print() override;
+        [[nodiscard]] constexpr ArithmeticType getType() const override;
 
         // Members access methods
-        [[nodiscard]] Division reverse() const;
-        [[nodiscard]] const ArithmeticObject* getNom() const;
-        [[nodiscard]] const ArithmeticObject* getDenom() const;
+        [[nodiscard]] const ArithmeticPointerWrapper& getNom() const;
+        [[nodiscard]] const ArithmeticPointerWrapper& getDenom() const;
 
         ~Division() override;
     };
-
-    template<Arithmetic T, Arithmetic P>
-    [[nodiscard]] Division operator/(const T&, const P&);
-
-    template<Arithmetic T, Primitive P>
-    [[nodiscard]] Division operator/(const T&, const P&);
-
-    template<Arithmetic T, Primitive P>
-    [[nodiscard]] Division operator/(const P&, const T&);
 }
 
-#include "Division.tcc"
-
 #endif //FUNCTIONS_SUM_HH
+//TODO self-assignment check
+#include "Division.tcc"

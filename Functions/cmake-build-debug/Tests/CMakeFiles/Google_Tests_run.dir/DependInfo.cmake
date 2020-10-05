@@ -4,9 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/DivisionOperatorsTests.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/CMakeFiles/Google_Tests_run.dir/DivisionOperatorsTests.cpp.o"
   "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/DivisionTests.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/CMakeFiles/Google_Tests_run.dir/DivisionTests.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/ExponentiationOperatorsTests.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/CMakeFiles/Google_Tests_run.dir/ExponentiationOperatorsTests.cpp.o"
   "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/FunctionsTests.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/CMakeFiles/Google_Tests_run.dir/FunctionsTests.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/MultiplicationOperatorsTests.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/CMakeFiles/Google_Tests_run.dir/MultiplicationOperatorsTests.cpp.o"
   "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/MultiplicationTests.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/CMakeFiles/Google_Tests_run.dir/MultiplicationTests.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/ParserTests.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/CMakeFiles/Google_Tests_run.dir/ParserTests.cpp.o"
+  "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/Tests/SumOperatorsTests.cpp" "/media/mmm/New Volume/Programming/AdvancedCalculator/AdvancedCalculator/Functions/cmake-build-debug/Tests/CMakeFiles/Google_Tests_run.dir/SumOperatorsTests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
